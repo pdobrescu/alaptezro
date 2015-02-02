@@ -1,23 +1,14 @@
-gitium-base
-===========
-
-Kickstart WordPress projects with a sane development environment!
+alaptezro
+===
 
 ## Clone and go!
 
-    git clone -o gitium git@github.com:PressLabs/gitium-base AWESOME_SITE
-    cd AWESOME_SITE
+    git clone git@git.presslabs.net:alaptezro.git
+    cd alaptezro
     git submodule update --init
     vagrant up
 
-Point your browser at [http://AWESOME_SITE.local](http://AWESOME_SITE.local).
-
-## Connect to your remote git
-
-    cd AWESOME_SITE
-    git remote add origin git@github.com:GITHUB_USERNAME/AWESOME_SITE
-    git branch master --set-upstream-to origin/master
-    git push origin master
+Point your browser at [http://alaptezro.local](http://alaptezro.local).
 
 ## Requirements
 
