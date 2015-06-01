@@ -50,10 +50,6 @@ class csp_l10n_parser {
 		
 		$this->l10n_regular = '/('.implode('$|', $this->l10n_functions).'$)/';
 		$this->l10n_domains = '/('.implode('|',$domains).')/';
-		
-		$this->regexp_wp_msfiles = "/(ms-.*|.*\/ms-.*|.*\/my-.*|wp-activate\.php|wp-signup\.php|wp-admin\/network\.php|wp-admin\/includes\/ms\.php|wp-admin\/network\/.*\.php|wp-admin\/includes\/class-wp-ms.*)/";
-		
-		$this->is_new_kernel_translation = @file_exists(dirname(dirname(dirname(dirname(dirname(__FILE__))))).'/wp-admin/user/about.php');
 	}
 	
 	function parseFile($filename, $component_type) {
@@ -117,7 +113,7 @@ class csp_l10n_parser {
 				} elseif (T_CONSTANT_ENCAPSED_STRING == $id) {
 					if ($in_func && $args_started) {
 						if ($text{0} == '"') {
-							$text = substr($text, 1, strlen($text)-2);
+							$text = trim($text, '"');
 							$text = str_replace('\"', '"', $text);
 							$text = str_replace("\\$", "$", $text);
 							$text = str_replace("\r\n", "\n", $text);
@@ -125,7 +121,7 @@ class csp_l10n_parser {
 							$text = str_replace("\\n", "\n", $text);
 						}
 						else{
-							$text = substr($text, 1, strlen($text)-2);
+							$text = trim($text, "'");
 							$text = str_replace("\\'", "'", $text);
 							$text = str_replace("\\$", "$", $text);
 							$text = str_replace("\r\n", "\n", $text);
@@ -288,13 +284,6 @@ class csp_l10n_parser {
 			
 	}
 	
-	function _ltd_validate($text)
-	{
-		$r = strip_tags($text);
-		if ($r != $text) return "{bug-detected}";
-		return $text;
-	}
-	
 	function _build_gettext($line, $func, $args, $argc, $is_dev_func, $bad_argc) {
 		$res = array(
 			'msgid' => '',
@@ -302,27 +291,10 @@ class csp_l10n_parser {
 			'CC' 	=> array(),
 			'LTD'	=> ($is_dev_func ? $this->textdomain : 'default')
 		);
-		
-		//check if we doing wordpress
-		if ($this->component_type == 'wordpress') {
-		
-			//special handling of WordPress new separations starting version 3.4
-			if (($res['LTD'] == 'default') && $this->is_new_kernel_translation) {
-				//test for admin
-				if (preg_match("/wp-admin\/.*/", $this->filename) && !preg_match("/(wp-admin\/includes\/continents-cities\.php|wp-admin\/network\/.*|wp-admin\/network\.php)/", $this->filename)) {
-					$res['LTD'] = 'admin';
-				}
-				elseif (preg_match("/(wp-admin\/network\/.*|wp-admin\/network\.php)/", $this->filename)) {
-					$res['LTD'] = 'admin-network';
-				}
-			}
-			else{				
-				//check if this is multi-site specific file for lower WordPress versions
-				if ($res['LTD'] == 'default') {
-					if (preg_match($this->regexp_wp_msfiles, $this->filename)) {
-						$res['LTD'] = 'ms';
-					}
-				}			
+		//check if this is multi-site specific file
+		if (($res['LTD'] == 'default') && ($this->component_type == 'wordpress')) {
+			if (preg_match('/^(ms-|my-|wp-activate\.php|wp-signup\.php|network\.php)/', basename($this->filename))) {
+				$res['LTD'] = 'ms';
 			}
 		}
 		
@@ -334,7 +306,7 @@ class csp_l10n_parser {
 				//[1] => textdomain (optional)
 				if (in_array(0, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0];
-				if (isset($args[1])) $res['LTD'] = $this->_ltd_validate(trim($args[1]));
+				if (isset($args[1])) $res['LTD'] = trim($args[1]);
 				elseif ($argc == 1) $res['LTD'] = $this->textdomain;
 			case '_e':
 				//see also esc_html_e
@@ -343,14 +315,14 @@ class csp_l10n_parser {
 				//[1] => textdomain (optional)
 				if (in_array(0, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0];
-				if (isset($args[1])) $res['LTD'] = $this->_ltd_validate(trim($args[1]));
+				if (isset($args[1])) $res['LTD'] = trim($args[1]);
 				elseif ($argc == 1) $res['LTD'] = $this->textdomain;
 			case '_c':
 				//[0] =>  phrase
 				//[1] => textdomain (optional)
 				$res['msgid'] = $args[0];
 				if (in_array(0, $bad_argc)) return null; //error, this can't be a function
-				if (isset($args[1])) $res['LTD'] = $this->_ltd_validate(trim($args[1]));
+				if (isset($args[1])) $res['LTD'] = trim($args[1]);
 				elseif ($argc == 1) $res['LTD'] = $this->textdomain;
 				break;
 			case '_x': 		
@@ -363,7 +335,7 @@ class csp_l10n_parser {
 				if (in_array(0, $bad_argc)) return null; //error, this can't be a function
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[1]."\04".$args[0];
-				if (isset($args[2])) $res['LTD'] = $this->_ltd_validate(trim($args[2]));
+				if (isset($args[2])) $res['LTD'] = trim($args[2]);
 				elseif ($argc == 2) $res['LTD'] = $this->textdomain;
 				break;
 			case '_ex': 		
@@ -374,7 +346,7 @@ class csp_l10n_parser {
 				if (in_array(0, $bad_argc)) return null; //error, this can't be a function
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[1]."\04".$args[0];
-				if (isset($args[2])) $res['LTD'] = $this->_ltd_validate(trim($args[2]));
+				if (isset($args[2])) $res['LTD'] = trim($args[2]);
 				elseif ($argc == 2) $res['LTD'] = $this->textdomain;
 				break;
 			case '__ngettext':
@@ -386,7 +358,7 @@ class csp_l10n_parser {
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0]."\00".$args[1];
 				$res['P'] = true;
-				if (isset($args[3])) $res['LTD'] = $this->_ltd_validate(trim($args[3]));
+				if (isset($args[3])) $res['LTD'] = trim($args[3]);
 				elseif ($argc == 3) $res['LTD'] = $this->textdomain;
 				break;
 			case '_n':
@@ -398,7 +370,7 @@ class csp_l10n_parser {
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0]."\00".$args[1];
 				$res['P'] = true;
-				if (isset($args[3])) $res['LTD'] = $this->_ltd_validate(trim($args[3]));
+				if (isset($args[3])) $res['LTD'] = trim($args[3]);
 				elseif ($argc == 3) $res['LTD'] = $this->textdomain;
 				break;
 			case '_nc':
@@ -410,7 +382,7 @@ class csp_l10n_parser {
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0]."\00".$args[1];
 				$res['P'] = true;
-				if (isset($args[3])) $res['LTD'] = $this->_ltd_validate(trim($args[3]));
+				if (isset($args[3])) $res['LTD'] = trim($args[3]);
 				elseif ($argc == 3) $res['LTD'] = $this->textdomain;
 				break;
 			case '_nx':
@@ -425,7 +397,7 @@ class csp_l10n_parser {
 				if (in_array(3, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[3]."\04".$args[0]."\00".$args[1];
 				$res['P'] = true;
-				if (isset($args[4])) $res['LTD'] = html_entity_decode(strip_tags(trim($args[4])));
+				if (isset($args[4])) $res['LTD'] = trim($args[4]);
 				elseif ($argc == 4) $res['LTD'] = $this->textdomain;
 				break;
 			case '__ngettext_noop':
@@ -435,7 +407,6 @@ class csp_l10n_parser {
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0]."\00".$args[1];
 				$res['P'] = true;
-				$res['LTD'] = $this->textdomain; //noop's translated later mostly with correct texdomain
 				break;
 			case '_n_noop':
 				//see deprecated __ngettext_noop
@@ -445,7 +416,6 @@ class csp_l10n_parser {
 				if (in_array(1, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[0]."\00".$args[1];
 				$res['P'] = true;
-				$res['LTD'] = $this->textdomain; //noop's translated later mostly with correct texdomain
 				break;
 			case '_nx_noop':
 				//see "_n_noop" but  but additional context,
@@ -457,8 +427,8 @@ class csp_l10n_parser {
 				if (in_array(2, $bad_argc)) return null; //error, this can't be a function
 				$res['msgid'] = $args[2]."\04".$args[0]."\00".$args[1];
 				$res['P'] = true;
-				$res['LTD'] = $this->textdomain; //noop's translated later mostly with correct texdomain
-				break;				
+				break;	
+				
 			case 'load_textdomain':
 				$res = array('func' => $func, 'textdomain' => '', 'rel_path' => false, 'path' => false);
 				if (isset($args[0])) $res['textdomain'] = $args[0];
@@ -507,11 +477,6 @@ class csp_l10n_parser {
 				exit();
 				*/
 				;
-		}
-		//permit splitting the "Center" qualified within one file, because WP doesn't provide it. 
-		if ($this->component_type == 'wordpress' && preg_match('/continents-cities\.php/', $this->filename) && $res['msgid'] == 'Center') {
-			$res['msgid'] = "continents-cities\04Center";
-			$res['CC'] = array('translators: this is an artificial split between the admin and continent text, because of different contextual usage.');
 		}
 		return $res;
 	}

@@ -5,7 +5,6 @@ $csp_l10n_langs = array(
 	'az' => array('az_AZ'),
 	'be' => array('be_BY'),
 	'bg' => array('bg_BG'),
-	'bs' => array('bs_BA'),
 	'by' => array('by_BY'),
 	'ca' => array('ca_ES'),
 	'cs' => array('cs_CZ'),
@@ -23,7 +22,6 @@ $csp_l10n_langs = array(
 	'fr' => array('fr_BE','fr_CA','fr_CH','fr_FR','fr_LU'),
 	'fy' => array('fy_NL'),
 	'ga' => array('ga_IE'),
-	'gl' => array('gl_ES'),
 	'he' => array('he_IL'),
 	'hi' => array('hi_IN'),
 	'hr' => array('hr_HR'),
@@ -33,7 +31,6 @@ $csp_l10n_langs = array(
 	'is' => array('is_IS'),
 	'it' => array('it_CH','it_IT'),
 	'ja' => array('ja_JP'),
-	'ka' => array('ka_GE'),
 	'kk' => array('kk_KK'),
 	'ko' => array('ko_KR'),
 	'ky' => array('ky_KY'),
@@ -41,11 +38,9 @@ $csp_l10n_langs = array(
 	'lt' => array('lt_LT'),
 	'lv' => array('lv_LV'),
 	'mk' => array('mk_MK'),
-	'mn' => array('mn_MN'),
-	'my' => array('my_MM'),
 	'nb' => array('nb_NB', 'nb_NO'),
 	'nl' => array('nl_BE','nl_NL'),
-	'nn' => array('nn_NO'),
+	'nn' => array('nn_NN'),
 	'no' => array('no_NO'),
 	'pl' => array('pl_PL'),
 	'pt' => array('pt_BR','pt_PT'),
@@ -60,7 +55,6 @@ $csp_l10n_langs = array(
 	'tl' => array('tl_PH'),
 	'tr' => array('tr_TR'),
 	'uk' => array('uk_UA'),
-	'ug' => array('ug_CN'),
 	'vi' => array('vi_VN'),
 	'xh' => array('xh_XH'),
 	'zh' => array('zh_CN','zh-MO','zh_HK','zh_SG','zh_TW'),
@@ -73,7 +67,6 @@ $csp_l10n_login_label = array(
 	'az' => "Dil",
 	'be' => "МО́ВА",
 	'bg' => "Език",
-	'bs' => "Язык",
 	'by' => "Язык",
 	'ca' => "Llenguatge",
 	'cs' => "Jazyk",
@@ -91,7 +84,6 @@ $csp_l10n_login_label = array(
 	'fr' => "Langue",
 	'fy' => "Taal",
 	'ga' => "Teanga",
-	'gl' => "Linguaxe",
 	'he' => "שפה",
 	'hi' => "हिन्दी",
 	'hr' => "Jezik",
@@ -101,7 +93,6 @@ $csp_l10n_login_label = array(
 	'is' => "Tungumál",
 	'it' => "Lingua",
 	'ja' => "言語",
-	'ka' => "ენა",
 	'kk' => "Language",
 	'ko' => "언어",
 	'ky' => "Тил",
@@ -109,8 +100,6 @@ $csp_l10n_login_label = array(
 	'lt' => "Kalba",
 	'lv' => "Valoda",
 	'mk' => "Јазик",
-	'mn' => "ᠬᠡᠯᠡ",
-	'my' => "Language",
 	'nb' => "Språk",
 	'nl' => "Taal",
 	'nn' => "Språk",
@@ -128,7 +117,6 @@ $csp_l10n_login_label = array(
 	'tl' => "Wikang",
 	'tr' => "Dil",
 	'uk' => "Мова",
-	'ug' => "Language",
 	'vi' => "Ngôn ngữ",
 	'xh' => "Ulwimi",
 	'zh' => "语言",
@@ -142,7 +130,6 @@ $csp_l10n_plurals = array(
 	'az' => "nplurals=2; plural=n != 1;",
 	'be' => "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
 	'bg' => "nplurals=2; plural=n != 1;",
-	'bs' => "nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;",
 	'by' => "nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;",
 	'ca' => "nplurals=2; plural=n != 1;",
 	'cs' => "nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;",
@@ -160,7 +147,6 @@ $csp_l10n_plurals = array(
 	'fr' => "nplurals=2; plural=n>1;",
 	'fy' => "nplurals=2; plural=n != 1;",
 	'ga' => "nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;",
-	'gl' => "nplurals=2; plural=(n != 1);",
 	'he' => "nplurals=2; plural=n != 1;",
 	'hi' => "nplurals=2; plural=n != 1;",
 	'hr' => "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
@@ -170,7 +156,6 @@ $csp_l10n_plurals = array(
 	'is' => "nplurals=2; plural=(n%10!=1 || n%100==11);",
 	'it' => "nplurals=2; plural=n != 1;",
 	'ja' => "nplurals=1; plural=0;",
-	'ka' => "nplurals=1; plural=0;",
 	'kk' => "nplurals=1; plural=0;",
 	'ko' => "nplurals=1; plural=0;",
 	'ky' => "nplurals=2; plural=n != 1;",
@@ -178,8 +163,6 @@ $csp_l10n_plurals = array(
 	'lt' => "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;",
 	'lv' => "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;",
 	'mk' => "nplurals=2; plural= n==1 || n%10==1 ? 0 : 1;",
-	'mn' => "nplurals=2; plural=n != 1;",
-	'my' => "nplurals=2; plural=n != 1;",
 	'nb' => "nplurals=2; plural=n != 1;",
 	'nl' => "nplurals=2; plural=n != 1;",
 	'nn' => "nplurals=2; plural=n != 1;",
@@ -197,7 +180,6 @@ $csp_l10n_plurals = array(
 	'tl' => "nplurals=2; plural=n != 1;",
 	'tr' => "nplurals=1; plural=0;",
 	'uk' => "nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;",
-	'ug' => "nplurals=1; plural=0;",
 	'vi' => "nplurals=1; plural=0;",
 	'xh' => "nplurals=2; plural=n != 1;",
 	'zh' => "nplurals=1; plural=0;",
@@ -214,8 +196,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'afk',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'af',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'ar_AE' => array (
 		'country' => "U.A.E.",
@@ -226,8 +207,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'aru',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_BH' => array (
 		'country' => "Bahrain",
@@ -238,8 +218,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arh',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_DZ' => array (
 		'country' => "Algeria",
@@ -250,8 +229,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arg',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_EG' => array (
 		'country' => "Egypt",
@@ -262,8 +240,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'are',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_IQ' => array (
 		'country' => "Iraq",
@@ -274,8 +251,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'ari',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_JO' => array (
 		'country' => "Jordan",
@@ -286,8 +262,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arj',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_KW' => array (
 		'country' => "Kuwait",
@@ -298,8 +273,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'ark',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_LB' => array (
 		'country' => "Lebanon",
@@ -310,8 +284,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arb',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_LY' => array (
 		'country' => "Libya",
@@ -322,8 +295,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arl',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_MA' => array (
 		'country' => "Morocco",
@@ -334,8 +306,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arm',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_OM' => array (
 		'country' => "Oman",
@@ -346,8 +317,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'aro',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_QA' => array (
 		'country' => "Qatar",
@@ -358,8 +328,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'arq',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_SA' => array (
 		'country' => "Saudi Arabia",
@@ -370,8 +339,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'ara',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_SY' => array (
 		'country' => "Syria",
@@ -382,8 +350,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'ars',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_TN' => array (
 		'country' => "Tunisia",
@@ -394,8 +361,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'art',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'ar_YE' => array (
 		'country' => "Yemen",
@@ -406,8 +372,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'ary',
 		'ms-cp' => 'CP1256',
-		'google-api' => 'ar',
-		'microsoft-api' => 'ar'
+		'google-api' => true,
 	),
 	'az_AZ' => array (
 		'country' => "Azerbaijan",
@@ -418,8 +383,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'aze',
 		'ms-cp' => 'CP1254',
-		'google-api' => 'az',
-		'microsoft-api' => ''
+		'google-api' => true,
 	),
 	'be_BY' => array (
 		'country' => "Belarus",
@@ -430,8 +394,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'bel',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'be',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'bg_BG' => array (
 		'country' => "Bulgaria",
@@ -442,19 +405,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'bgr',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'bg',
-		'microsoft-api' => ''
-	),
-	'bs_BA' => array (
-		'country' => "Bosnia and Herzegowina",
-		'country-www' => 'ba',
-		'lang' => 'Bosnian',
-		'lang-native' => 'босански',
-		'lang-www' => 'ba-BA',
-		'dir' => 'ltr',
-		'ms-loc' => 'bos',
-		'ms-cp' => 'CP1251',
-		'google-api' => false,
+		'google-api' => true,
 	),
 	'by_BY' => array (
 		'country' => "Belarus",
@@ -465,8 +416,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'bel',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'be',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'ca_ES' => array (
 		'country' => "Spain",
@@ -477,8 +427,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'cat',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'ca',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'cs_CZ' => array (
 		'country' => "Czech Republic",
@@ -489,8 +438,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'csy',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'cs',
-		'microsoft-api' => 'cs'
+		'google-api' => true,
 	),
 	'da_DK' => array (
 		'country' => "Denmark",
@@ -501,8 +449,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'dan',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'da',
-		'microsoft-api' => 'da'
+		'google-api' => true,
 	),
 	'de_AT' => array (
 		'country' => "Austria",
@@ -513,8 +460,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'dea',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'de',
-		'microsoft-api' => 'de'
+		'google-api' => true,
 	),
 	'de_CH' => array (
 		'country' => "Switzerland",
@@ -525,8 +471,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'des',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'de',
-		'microsoft-api' => 'de'
+		'google-api' => true,
 	),
 	'de_DE' => array (
 		'country' => "Germany",
@@ -537,8 +482,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'deu',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'de',
-		'microsoft-api' => 'de'
+		'google-api' => true,
 	),
 	'de_LU' => array (
 		'country' => "Luxembourg",
@@ -549,8 +493,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'del',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'de',
-		'microsoft-api' => 'de'
+		'google-api' => true,
 	),
 	'el_CY' => array (
 		'country' => "Greece",
@@ -561,8 +504,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ell',
 		'ms-cp' => 'CP1253',
-		'google-api' => 'el',
-		'microsoft-api' => 'el'
+		'google-api' => true,
 	),
 	'el_GR' => array (
 		'country' => "Greece",
@@ -573,8 +515,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ell',
 		'ms-cp' => 'CP1253',
-		'google-api' => 'el',
-		'microsoft-api' => 'el'
+		'google-api' => true,
 	),
 	'el_EL' => array (
 		'country' => "Greece",
@@ -585,8 +526,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ell',
 		'ms-cp' => 'CP1253',
-		'google-api' => 'el',
-		'microsoft-api' => 'el'
+		'google-api' => true,
 	),
 	'en_AU' => array (
 		'country' => "Australia",
@@ -597,8 +537,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ena',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_CA' => array (
 		'country' => "Canada",
@@ -609,8 +548,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'enc',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_GB' => array (
 		'country' => "United Kingdom",
@@ -621,8 +559,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'eng',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_IE' => array (
 		'country' => "Ireland",
@@ -633,8 +570,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'eni',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_NZ' => array (
 		'country' => "New Zealand",
@@ -645,8 +581,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'enz',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_PH' => array (
 		'country' => "Republic of the Philippines",
@@ -657,8 +592,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'enp',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_US' => array (
 		'country' => "United States",
@@ -669,8 +603,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'enu',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'en_ZA' => array (
 		'country' => "South Africa",
@@ -681,8 +614,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ens',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'en',
-		'microsoft-api' => 'en'
+		'google-api' => true,
 	),
 	'eo_EO' => array (
 		'country' => "-n.a.-",
@@ -693,8 +625,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'enu',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'eo',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),	
 	'es_AR' => array (
 		'country' => "Argentina",
@@ -705,8 +636,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ess',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_BO' => array (
 		'country' => "Bolivia",
@@ -717,8 +647,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esb',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_CL' => array (
 		'country' => "Chile",
@@ -729,8 +658,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esl',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_CO' => array (
 		'country' => "Colombia",
@@ -741,8 +669,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'eso',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_CR' => array (
 		'country' => "Costa Rica",
@@ -753,8 +680,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esc',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_DO' => array (
 		'country' => "Dominican Republic",
@@ -765,8 +691,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esd',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_EC' => array (
 		'country' => "Ecuador",
@@ -777,8 +702,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esf',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_ES' => array (
 		'country' => "Spain",
@@ -789,8 +713,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esp',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_GT' => array (
 		'country' => "Guatemala",
@@ -801,8 +724,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esg',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_HN' => array (
 		'country' => "Honduras",
@@ -813,8 +735,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esh',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_MX' => array (
 		'country' => "Mexico",
@@ -825,8 +746,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esm',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_NI' => array (
 		'country' => "Nicaragua",
@@ -837,8 +757,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esi',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_PA' => array (
 		'country' => "Panama",
@@ -849,8 +768,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esa',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_PE' => array (
 		'country' => "Peru",
@@ -861,8 +779,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esr',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_PR' => array (
 		'country' => "Puerto Rico",
@@ -873,8 +790,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esu',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_PY' => array (
 		'country' => "Paraguay",
@@ -885,8 +801,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esz',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_SV' => array (
 		'country' => "El Salvador",
@@ -897,8 +812,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ese',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_UY' => array (
 		'country' => "Uruguay",
@@ -909,8 +823,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esy',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'es_VE' => array (
 		'country' => "Venezuela",
@@ -921,8 +834,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'esv',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'es',
-		'microsoft-api' => 'es'
+		'google-api' => true,
 	),
 	'et_EE' => array (
 		'country' => "Estonia",
@@ -933,8 +845,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'eti',
 		'ms-cp' => 'CP1257',
-		'google-api' => 'et',
-		'microsoft-api' => 'et'
+		'google-api' => false,
 	),
 	'eu_ES' => array (
 		'country' => "Basque",
@@ -945,8 +856,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'eh',
 		'ms-cp' => 'CP1257',
-		'google-api' => 'eu',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'fa_IR' => array (
 		'country' => "Iran",
@@ -957,8 +867,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'far',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fa',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'fi_FI' => array (
 		'country' => "Finland",
@@ -969,8 +878,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'fin',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fi',
-		'microsoft-api' => 'fi'
+		'google-api' => true,
 	),
 	'fo_FO' => array (
 		'country' => "Faroe Islands",
@@ -981,8 +889,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'fos',
 		'ms-cp' => 'CP1252',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'fr_BE' => array (
 		'country' => "Belgium",
@@ -993,8 +900,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'frb',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fr',
-		'microsoft-api' => 'fr'
+		'google-api' => true,
 	),
 	'fr_CA' => array (
 		'country' => "Canada",
@@ -1005,8 +911,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'frc',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fr',
-		'microsoft-api' => 'fr'
+		'google-api' => true,
 	),
 	'fr_CH' => array (
 		'country' => "Switzerland",
@@ -1017,8 +922,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'frs',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fr',
-		'microsoft-api' => 'fr'
+		'google-api' => true,
 	),
 	'fr_FR' => array (
 		'country' => "France",
@@ -1029,8 +933,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'fra',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fr',
-		'microsoft-api' => 'fr'
+		'google-api' => true,
 	),
 	'fr_LU' => array (
 		'country' => "Luxembourg",
@@ -1041,8 +944,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'frl',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'fr',
-		'microsoft-api' => 'fr'
+		'google-api' => true,
 	),
 	'fy_NL' => array (
 		'country' => "Netherlands",
@@ -1053,8 +955,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'fyn',
 		'ms-cp' => 'CP1252',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'ga_IE' => array (
 		'country' => "Ireland",
@@ -1065,20 +966,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ire',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'ga',
-		'microsoft-api' => ''
-	),
-	'gl_ES' => array(
-		'country' => "Espana",
-		'country-www' => 'gl',
-		'lang' => 'Galego',
-		'lang-native' => 'Galego',
-		'lang-www' => 'gl-ES',
-		'dir' => 'ltr',
-		'ms-loc' => 'gel',
-		'ms-cp' => 'CP1255',
-		'google-api' => 'gl',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'he_IL' => array (
 		'country' => "Israel",
@@ -1089,8 +977,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'rtl',
 		'ms-loc' => 'heb',
 		'ms-cp' => 'CP1255',
-		'google-api' => 'he',
-		'microsoft-api' => 'he'
+		'google-api' => false,
 	),
 	'hi_IN' => array (
 		'country' => "India",
@@ -1101,8 +988,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'hin',
 		'ms-cp' => 'CP1255',
-		'google-api' => 'hi',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'hr_HR' => array (
 		'country' => "Croatia",
@@ -1113,8 +999,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'hrv',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'hr',
-		'microsoft-api' => ''
+		'google-api' => true,
 	),
 	'hu_HU' => array (
 		'country' => "Hungary",
@@ -1125,8 +1010,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'hun',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'hu',
-		'microsoft-api' => 'hu'
+		'google-api' => false,
 	),
 	'id_ID' => array (
 		'country' => "Indonesia",
@@ -1137,8 +1021,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ind',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'id',
-		'microsoft-api' => 'id'
+		'google-api' => false,
 	),
 	'in_ID' => array (
 		'country' => "Indonesia",
@@ -1149,8 +1032,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ind',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'id',
-		'microsoft-api' => 'id'
+		'google-api' => false,
 	),
 	'is_IS' => array (
 		'country' => "Iceland",
@@ -1161,8 +1043,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'isl',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'is',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'it_CH' => array (
 		'country' => "Switzerland",
@@ -1173,8 +1054,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'its',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'it',
-		'microsoft-api' => 'it'
+		'google-api' => true,
 	),
 	'it_IT' => array (
 		'country' => "Italy",
@@ -1185,8 +1065,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ita',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'it',
-		'microsoft-api' => 'it'
+		'google-api' => true,
 	),
 	'ja_JP' => array (
 		'country' => "Japan",
@@ -1197,20 +1076,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'jpn',
 		'ms-cp' => 'CP932',
-		'google-api' => 'ja',
-		'microsoft-api' => 'ja'
-	),
-	'ka_GE' => array(
-		'country' => "Kazakhstan",
-		'country-www' => 'ka',
-		'lang' => 'Georgian',
-		'lang-native' => "ქართული",
-		'lang-www' => 'ka-GE',
-		'dir' => 'ltr',
-		'ms-loc' => 'geo',
-		'ms-cp' => '',
-		'google-api' => 'ka',
-		'microsoft-api' => ''
+		'google-api' => true,
 	),
 	'kk_KK' => array (
 		'country' => "Kazakhstan",
@@ -1221,8 +1087,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'kkz',
 		'ms-cp' => 'CP1251',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'ko_KR' => array (
 		'country' => "Korea",
@@ -1233,8 +1098,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'kor',
 		'ms-cp' => 'CP949',
-		'google-api' => 'ko',
-		'microsoft-api' => 'ko'
+		'google-api' => true,
 	),
 	'ky_KY' => array (
 		'country' => "Kyrgyzstan",
@@ -1245,8 +1109,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'kyr',
 		'ms-cp' => 'CP1251',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'lb_LB' => array (
 		'country' => "Luxembourg",
@@ -1257,8 +1120,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'lbx',
 		'ms-cp' => 'CP1252',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'lt_LT' => array (
 		'country' => "Lithuania",
@@ -1269,8 +1131,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'lth',
 		'ms-cp' => 'CP1257',
-		'google-api' => 'lt',
-		'microsoft-api' => 'lt'
+		'google-api' => false,
 	),
 	'lv_LV' => array (
 		'country' => "Latvia",
@@ -1281,8 +1142,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'lvi',
 		'ms-cp' => 'CP1257',
-		'google-api' => 'lv',
-		'microsoft-api' => 'lv'
+		'google-api' => false,
 	),
 	'mk_MK' => array (
 		'country' => "Former Yugoslav Republic of Macedonia",
@@ -1293,32 +1153,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'mki',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'mk',
-		'microsoft-api' => ''
-	),
-	'mn_MN' => array (
-		'country' => "Mongolia",
-		'country-www' => 'mn',
-		'lang' => 'Mongolian',
-		'lang-native' => 'ᠮᠣᠨᠭᠭᠣᠯ',
-		'lang-www' => 'mn-MN',
-		'dir' => 'ltr',
-		'ms-loc' => 'mon',
-		'ms-cp' => 'CP1251',
-		'google-api' => '',
-		'microsoft-api' => ''
-	),
-	'my_MM' => array (
-		'country' => "Myanmar",
-		'country-www' => 'mm',
-		'lang' => 'myanma bhasa',
-		'lang-native' => 'myanma bhasa',
-		'lang-www' => 'my-MM',
-		'dir' => 'ltr',
-		'ms-loc' => 'bur',
-		'ms-cp' => 'CP1251',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'nb_NB' => array (
 		'country' => "Norway",
@@ -1329,8 +1164,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'nor',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'no',
-		'microsoft-api' => 'no'
+		'google-api' => true,
 	),
 	'nb_NO' => array (
 		'country' => "Norway",
@@ -1341,8 +1175,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'nor',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'no',
-		'microsoft-api' => 'no'
+		'google-api' => true,
 	),
 	'nl_BE' => array (
 		'country' => "Belgium",
@@ -1353,8 +1186,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'nlb',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'nl',
-		'microsoft-api' => 'nl'
+		'google-api' => true,
 	),
 	'nl_NL' => array (
 		'country' => "Netherlands",
@@ -1365,10 +1197,9 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'nld',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'nl',
-		'microsoft-api' => 'nl'
+		'google-api' => true,
 	),
-	'nn_NO' => array (
+	'nn_NN' => array (
 		'country' => "Norway",
 		'country-www' => 'nn',
 		'lang' => 'Norwegian-Nynorsk',
@@ -1377,8 +1208,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'non',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'no',
-		'microsoft-api' => 'no'
+		'google-api' => true,
 	),
 	'no_NO' => array (
 		'country' => "Norway",
@@ -1389,8 +1219,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'non',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'no',
-		'microsoft-api' => 'no'
+		'google-api' => true,
 	),
 	'pl_PL' => array (
 		'country' => "Poland",
@@ -1401,8 +1230,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'plk',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'pl',
-		'microsoft-api' => 'pl'
+		'google-api' => true,
 	),
 	'pt_BR' => array (
 		'country' => "Brazil",
@@ -1413,8 +1241,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ptb',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'pt',
-		'microsoft-api' => 'pt'
+		'google-api' => true,
 	),
 	'pt_PT' => array (
 		'country' => "Portugal",
@@ -1425,8 +1252,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ptg',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'pt',
-		'microsoft-api' => 'pt'
+		'google-api' => true,
 	),
 	'ro_RO' => array (
 		'country' => "Romania",
@@ -1437,8 +1263,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'rom',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'ro',
-		'microsoft-api' => 'ro'
+		'google-api' => true,
 	),
 	'ru_RU' => array (
 		'country' => "Russia",
@@ -1449,8 +1274,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'rus',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'ru',
-		'microsoft-api' => 'ru'
+		'google-api' => true,
 	),
 	'sk_SK' => array (
 		'country' => "Slovakia",
@@ -1461,8 +1285,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'sky',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'sk',
-		'microsoft-api' => 'sk'
+		'google-api' => false,
 	),
 	'sl_SI' => array (
 		'country' => "Slovenia",
@@ -1473,8 +1296,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'slv',
 		'ms-cp' => 'CP1250',
-		'google-api' => 'sl',
-		'microsoft-api' => 'sl'
+		'google-api' => false,
 	),
 	'sq_AL' => array (
 	   'country' => "Albania",
@@ -1485,8 +1307,7 @@ $csp_l10n_sys_locales = array(
 	   'dir' => 'ltr',
 	   'ms-loc' => 'sqi',
 	   'ms-cp' => 'CP1250',
-		'google-api' => 'sq',
-		'microsoft-api' => ''
+	   'google-api' => true,
     ),
 	'sr_BA' => array (
 		'country' => "Bosnia and Herzegovina",
@@ -1497,8 +1318,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'srn',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'sr',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'sr_CS' => array (
 		'country' => "Serbia and Montenegro",
@@ -1509,8 +1329,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'srb',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'sr',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'sr_RS' => array (
 		'country' => "Serbia",
@@ -1521,8 +1340,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'srb',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'sr',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'sv_SE' => array (
 		'country' => "Sweden",
@@ -1533,8 +1351,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'sve',
 		'ms-cp' => 'CP1252',
-		'google-api' => 'sv',
-		'microsoft-api' => 'sv'
+		'google-api' => true,
 	),
 	'th_TH' => array (
 		'country' => "Thailand",
@@ -1545,8 +1362,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'tha',
 		'ms-cp' => 'CP874',
-		'google-api' => 'th',
-		'microsoft-api' => 'th'
+		'google-api' => false,
 	),
 	'tl_PH' => array (
 		'country' => "Philippines",
@@ -1557,8 +1373,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => '',
 		'ms-cp' => '',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'tr_TR' => array (
 		'country' => "Turkey",
@@ -1569,20 +1384,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'trk',
 		'ms-cp' => 'CP1254',
-		'google-api' => 'tr',
-		'microsoft-api' => 'tr'
-	),
-	'ug_CN' => array (
-		'country' => "People's Republic of China",
-		'country-www' => 'cn',
-		'lang' => 'Uyghur',
-		'lang-native' => 'ئۇيغۇر‎',
-		'lang-www' => 'ug-CN',
-		'dir' => 'rtl',
-		'ms-loc' => 'ug',
-		'ms-cp' => 'CP1251',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'uk_UA' => array (
 		'country' => "Ukraine",
@@ -1593,8 +1395,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'ukr',
 		'ms-cp' => 'CP1251',
-		'google-api' => 'uk',
-		'microsoft-api' => 'uk'
+		'google-api' => false,
 	),
 	'vi_VN' => array (
 		'country' => "Viet Nam",
@@ -1605,8 +1406,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'vit',
 		'ms-cp' => 'CP1258',
-		'google-api' => 'vi',
-		'microsoft-api' => 'vi'
+		'google-api' => false,
 	),
 	'xh_XH' => array (
 		'country' => "South Africa",
@@ -1617,8 +1417,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'xho',
 		'ms-cp' => 'CP1252',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 	'zh_CN' => array (
 		'country' => "People's Republic of China",
@@ -1629,8 +1428,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'chs',
 		'ms-cp' => 'CP936',
-		'google-api' => 'zh-CN',
-		'microsoft-api' => 'zh-CHS'
+		'google-api' => true,
 	),
 	'zh-MO' => array (
 		'country' => "Macau S.A.R.",
@@ -1641,8 +1439,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'zhm',
 		'ms-cp' => 'CP950',
-		'google-api' => 'zh',
-		'microsoft-api' => 'zh'
+		'google-api' => true,
 	),
 	'zh_HK' => array (
 		'country' => "Hong Kong S.A.R.",
@@ -1653,8 +1450,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'zhh',
 		'ms-cp' => 'CP950',
-		'google-api' => 'zh',
-		'microsoft-api' => 'zh'
+		'google-api' => true,
 	),
 	'zh_SG' => array (
 		'country' => "Singapore",
@@ -1665,8 +1461,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'zhi',
 		'ms-cp' => 'CP936',
-		'google-api' => 'zh',
-		'microsoft-api' => 'zh'
+		'google-api' => true,
 	),
 	'zh_TW' => array (
 		'country' => "Taiwan",
@@ -1677,8 +1472,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'cht',
 		'ms-cp' => 'CP950',
-		'google-api' => 'zh-TW',
-		'microsoft-api' => 'zh-CHT'
+		'google-api' => true,
 	),
 	'zu_ZU' => array (
 		'country' => "South Africa",
@@ -1689,8 +1483,7 @@ $csp_l10n_sys_locales = array(
 		'dir' => 'ltr',
 		'ms-loc' => 'zul',
 		'ms-cp' => 'CP1252',
-		'google-api' => '',
-		'microsoft-api' => ''
+		'google-api' => false,
 	),
 );
 ?>
