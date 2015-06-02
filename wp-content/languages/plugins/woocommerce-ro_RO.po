@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-05-19 20:00:59+00:00\n"
-"PO-Revision-Date: 2015-05-19 20:03+0000\n"
+"POT-Creation-Date: 2015-06-01 14:24:00+00:00\n"
+"PO-Revision-Date: 2015-06-01 14:26+0000\n"
 "Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
 "Language-Team: Romanian (Romania) (http://www.transifex.com/projects/p/woocommerce/language/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: i18n/countries.php:18
 msgid "Afghanistan"
-msgstr "Afghanistan"
+msgstr ""
 
 #: i18n/countries.php:19
 msgid "&#197;land Islands"
@@ -2183,8 +2183,8 @@ msgid "Papua Barat"
 msgstr "Papua Barat"
 
 #: i18n/states/IN.php:13
-msgid "Andra Pradesh"
-msgstr "Andra Pradesh"
+msgid "Andhra Pradesh"
+msgstr ""
 
 #: i18n/states/IN.php:14
 msgid "Arunachal Pradesh"
@@ -3730,6 +3730,334 @@ msgstr "Tumbes"
 msgid "Ucayali"
 msgstr "Ucayali"
 
+#: i18n/states/PH.php:12
+msgid "Abra"
+msgstr ""
+
+#: i18n/states/PH.php:13
+msgid "Agusan del Norte"
+msgstr ""
+
+#: i18n/states/PH.php:14
+msgid "Agusan del Sur"
+msgstr ""
+
+#: i18n/states/PH.php:15
+msgid "Aklan"
+msgstr ""
+
+#: i18n/states/PH.php:16
+msgid "Albay"
+msgstr ""
+
+#: i18n/states/PH.php:17
+msgid "Antique"
+msgstr ""
+
+#: i18n/states/PH.php:18
+msgid "Apayao"
+msgstr ""
+
+#: i18n/states/PH.php:19
+msgid "Aurora"
+msgstr ""
+
+#: i18n/states/PH.php:20
+msgid "Basilan"
+msgstr ""
+
+#: i18n/states/PH.php:21
+msgid "Bataan"
+msgstr ""
+
+#: i18n/states/PH.php:22
+msgid "Batanes"
+msgstr ""
+
+#: i18n/states/PH.php:23
+msgid "Batangas"
+msgstr ""
+
+#: i18n/states/PH.php:24
+msgid "Benguet"
+msgstr ""
+
+#: i18n/states/PH.php:25
+msgid "Biliran"
+msgstr ""
+
+#: i18n/states/PH.php:26
+msgid "Bohol"
+msgstr ""
+
+#: i18n/states/PH.php:27
+msgid "Bukidnon"
+msgstr ""
+
+#: i18n/states/PH.php:28
+msgid "Bulacan"
+msgstr ""
+
+#: i18n/states/PH.php:29
+msgid "Cagayan"
+msgstr ""
+
+#: i18n/states/PH.php:30
+msgid "Camarines Norte"
+msgstr ""
+
+#: i18n/states/PH.php:31
+msgid "Camarines Sur"
+msgstr ""
+
+#: i18n/states/PH.php:32
+msgid "Camiguin"
+msgstr ""
+
+#: i18n/states/PH.php:33
+msgid "Capiz"
+msgstr ""
+
+#: i18n/states/PH.php:34
+msgid "Catanduanes"
+msgstr ""
+
+#: i18n/states/PH.php:35
+msgid "Cavite"
+msgstr ""
+
+#: i18n/states/PH.php:36
+msgid "Cebu"
+msgstr ""
+
+#: i18n/states/PH.php:37
+msgid "Compostela Valley"
+msgstr ""
+
+#: i18n/states/PH.php:38
+msgid "Cotabato"
+msgstr ""
+
+#: i18n/states/PH.php:39
+msgid "Davao del Norte"
+msgstr ""
+
+#: i18n/states/PH.php:40
+msgid "Davao del Sur"
+msgstr ""
+
+#: i18n/states/PH.php:41
+msgid "Davao Occidental"
+msgstr ""
+
+#: i18n/states/PH.php:42
+msgid "Davao Oriental"
+msgstr ""
+
+#: i18n/states/PH.php:43
+msgid "Dinagat Islands"
+msgstr ""
+
+#: i18n/states/PH.php:44
+msgid "Eastern Samar"
+msgstr ""
+
+#: i18n/states/PH.php:45
+msgid "Guimaras"
+msgstr ""
+
+#: i18n/states/PH.php:46
+msgid "Ifugao"
+msgstr ""
+
+#: i18n/states/PH.php:47
+msgid "Ilocos Norte"
+msgstr ""
+
+#: i18n/states/PH.php:48
+msgid "Ilocos Sur"
+msgstr ""
+
+#: i18n/states/PH.php:49
+msgid "Iloilo"
+msgstr ""
+
+#: i18n/states/PH.php:50
+msgid "Isabela"
+msgstr ""
+
+#: i18n/states/PH.php:51
+msgid "Kalinga"
+msgstr ""
+
+#: i18n/states/PH.php:52
+msgid "La Union"
+msgstr ""
+
+#: i18n/states/PH.php:53
+msgid "Laguna"
+msgstr ""
+
+#: i18n/states/PH.php:54
+msgid "Lanao del Norte"
+msgstr ""
+
+#: i18n/states/PH.php:55
+msgid "Lanao del Sur"
+msgstr ""
+
+#: i18n/states/PH.php:56
+msgid "Leyte"
+msgstr ""
+
+#: i18n/states/PH.php:57
+msgid "Maguindanao"
+msgstr ""
+
+#: i18n/states/PH.php:58
+msgid "Marinduque"
+msgstr ""
+
+#: i18n/states/PH.php:59
+msgid "Masbate"
+msgstr ""
+
+#: i18n/states/PH.php:60
+msgid "Misamis Occidental"
+msgstr ""
+
+#: i18n/states/PH.php:61
+msgid "Misamis Oriental"
+msgstr ""
+
+#: i18n/states/PH.php:62
+msgid "Mountain Province"
+msgstr ""
+
+#: i18n/states/PH.php:63
+msgid "Negros Occidental"
+msgstr ""
+
+#: i18n/states/PH.php:64
+msgid "Negros Oriental"
+msgstr ""
+
+#: i18n/states/PH.php:65
+msgid "Northern Samar"
+msgstr ""
+
+#: i18n/states/PH.php:66
+msgid "Nueva Ecija"
+msgstr ""
+
+#: i18n/states/PH.php:67
+msgid "Nueva Vizcaya"
+msgstr ""
+
+#: i18n/states/PH.php:68
+msgid "Occidental Mindoro"
+msgstr ""
+
+#: i18n/states/PH.php:69
+msgid "Oriental Mindoro"
+msgstr ""
+
+#: i18n/states/PH.php:70
+msgid "Palawan"
+msgstr ""
+
+#: i18n/states/PH.php:71
+msgid "Pampanga"
+msgstr ""
+
+#: i18n/states/PH.php:72
+msgid "Pangasinan"
+msgstr ""
+
+#: i18n/states/PH.php:73
+msgid "Quezon"
+msgstr ""
+
+#: i18n/states/PH.php:74
+msgid "Quirino"
+msgstr ""
+
+#: i18n/states/PH.php:75
+msgid "Rizal"
+msgstr ""
+
+#: i18n/states/PH.php:76
+msgid "Romblon"
+msgstr ""
+
+#: i18n/states/PH.php:77
+msgid "Samar"
+msgstr ""
+
+#: i18n/states/PH.php:78
+msgid "Sarangani"
+msgstr ""
+
+#: i18n/states/PH.php:79
+msgid "Siquijor"
+msgstr ""
+
+#: i18n/states/PH.php:80
+msgid "Sorsogon"
+msgstr ""
+
+#: i18n/states/PH.php:81
+msgid "South Cotabato"
+msgstr ""
+
+#: i18n/states/PH.php:82
+msgid "Southern Leyte"
+msgstr ""
+
+#: i18n/states/PH.php:83
+msgid "Sultan Kudarat"
+msgstr ""
+
+#: i18n/states/PH.php:84
+msgid "Sulu"
+msgstr ""
+
+#: i18n/states/PH.php:85
+msgid "Surigao del Norte"
+msgstr ""
+
+#: i18n/states/PH.php:86
+msgid "Surigao del Sur"
+msgstr ""
+
+#: i18n/states/PH.php:87
+msgid "Tarlac"
+msgstr ""
+
+#: i18n/states/PH.php:88
+msgid "Tawi-Tawi"
+msgstr ""
+
+#: i18n/states/PH.php:89
+msgid "Zambales"
+msgstr ""
+
+#: i18n/states/PH.php:90
+msgid "Zamboanga del Norte"
+msgstr ""
+
+#: i18n/states/PH.php:91
+msgid "Zamboanga del Sur"
+msgstr ""
+
+#: i18n/states/PH.php:92
+msgid "Zamboanga Sibugay"
+msgstr ""
+
+#: i18n/states/PH.php:93
+msgid "Metro Manila"
+msgstr ""
+
 #: i18n/states/TH.php:13
 msgid ""
 "Amnat Charoen "
@@ -4681,7 +5009,7 @@ msgstr "Western Cape"
 
 #: includes/abstracts/abstract-wc-integration.php:29
 #: includes/abstracts/abstract-wc-settings-api.php:77
-#: includes/class-wc-install.php:648 includes/emails/class-wc-email.php:711
+#: includes/class-wc-install.php:664 includes/emails/class-wc-email.php:722
 msgid "Settings"
 msgstr "Setări"
 
@@ -4745,7 +5073,7 @@ msgid "Item's #%s variation #%s stock reduced from %s to %s."
 msgstr "Stocul variatiei #%s a fost redus de la %s la %s."
 
 #: includes/abstracts/abstract-wc-order.php:2400
-#: includes/class-wc-ajax.php:1201 includes/class-wc-ajax.php:1202
+#: includes/class-wc-ajax.php:1264 includes/class-wc-ajax.php:1265
 msgid "Item #%s stock reduced from %s to %s."
 msgstr "Stocul articolului #%s a fost redus de la %s la %s."
 
@@ -4787,7 +5115,7 @@ msgstr "Citește mai mult"
 #: includes/abstracts/abstract-wc-product.php:625
 #: includes/abstracts/abstract-wc-product.php:636
 #: includes/abstracts/abstract-wc-product.php:658
-#: includes/class-wc-ajax.php:660 includes/class-wc-product-variation.php:530
+#: includes/class-wc-ajax.php:680 includes/class-wc-product-variation.php:530
 #: includes/class-wc-product-variation.php:540
 #: includes/class-wc-product-variation.php:556
 msgid "In stock"
@@ -4811,28 +5139,28 @@ msgid "%s in stock"
 msgstr "%s în stoc"
 
 #: includes/abstracts/abstract-wc-product.php:653
-#: includes/class-wc-product-variation.php:553 templates/cart/cart.php:74
+#: includes/class-wc-product-variation.php:553 templates/cart/cart.php:76
 msgid "Available on backorder"
 msgstr "Disponibil pentru Comandă în Așteptare"
 
 #: includes/abstracts/abstract-wc-product.php:663
 #: includes/abstracts/abstract-wc-product.php:669
-#: includes/class-wc-ajax.php:661 includes/class-wc-product-variation.php:559
+#: includes/class-wc-ajax.php:681 includes/class-wc-product-variation.php:559
 #: includes/class-wc-product-variation.php:563
 msgid "Out of stock"
 msgstr "Stoc epuizat"
 
-#: includes/abstracts/abstract-wc-product.php:1109
+#: includes/abstracts/abstract-wc-product.php:1114
 #: templates/single-product/rating.php:27
 msgid "Rated %s out of 5"
 msgstr "Evaluat la %s stele din 5"
 
-#: includes/abstracts/abstract-wc-product.php:1111
+#: includes/abstracts/abstract-wc-product.php:1116
 #: templates/single-product/review.php:30
 msgid "out of 5"
 msgstr "din 5"
 
-#: includes/abstracts/abstract-wc-product.php:1504
+#: includes/abstracts/abstract-wc-product.php:1453
 msgid "%s &ndash; %s"
 msgstr "%s &ndash; %s"
 
@@ -4987,198 +5315,198 @@ msgstr "Suportul JSONP este dezactivat pe acest site"
 msgid "The JSONP callback function is invalid"
 msgstr "Funcția JSONP pentru apelul invers (callback) este invalidă"
 
-#: includes/api/class-wc-api-orders.php:315
+#: includes/api/class-wc-api-orders.php:313
 #: includes/api/v1/class-wc-api-orders.php:258
 msgid "You do not have permission to read the orders count"
 msgstr "Nu aveți permisiunea de a vizualiza numărul de comenzi"
 
-#: includes/api/class-wc-api-orders.php:366
+#: includes/api/class-wc-api-orders.php:364
 msgid "You do not have permission to create orders"
 msgstr "Nu aveți permisiunea de a crea comenzi"
 
-#: includes/api/class-wc-api-orders.php:382
-#: includes/api/class-wc-api-orders.php:531
+#: includes/api/class-wc-api-orders.php:380
+#: includes/api/class-wc-api-orders.php:529
 msgid "Customer ID is invalid"
 msgstr "ID-ul Clientului este nevalid"
 
-#: includes/api/class-wc-api-orders.php:392
+#: includes/api/class-wc-api-orders.php:390
 msgid "Cannot create order: %s"
 msgstr "Comanda nu poate fi creată: %s"
 
-#: includes/api/class-wc-api-orders.php:426
+#: includes/api/class-wc-api-orders.php:424
 msgid "Payment method ID and title are required"
 msgstr "Sunt necesare ID-ul modalitati de plata si titlu"
 
-#: includes/api/class-wc-api-orders.php:442
-#: includes/api/class-wc-api-orders.php:602
+#: includes/api/class-wc-api-orders.php:440
+#: includes/api/class-wc-api-orders.php:600
 msgid "Provided order currency is invalid"
 msgstr "Moneda furnizată pentru comandă este invalidă"
 
-#: includes/api/class-wc-api-orders.php:557
+#: includes/api/class-wc-api-orders.php:555
 msgid "Order item ID is required"
 msgstr "Numărul de identificare ID al articolului comandat este obligatoriu"
 
-#: includes/api/class-wc-api-orders.php:828
+#: includes/api/class-wc-api-orders.php:826
 msgid "Order item ID provided is not associated with order"
 msgstr "ID-ul articolului comandat nu este asociat cu nici o comanda"
 
-#: includes/api/class-wc-api-orders.php:850
+#: includes/api/class-wc-api-orders.php:848
 msgid "Product ID is required"
 msgstr "ID-ul produsului este obligatoriu"
 
-#: includes/api/class-wc-api-orders.php:860
+#: includes/api/class-wc-api-orders.php:858
 msgid "Product ID provided does not match this line item"
 msgstr "ID-ul produsului furnizat, nu se potriveste cu elementul din acest rand"
 
-#: includes/api/class-wc-api-orders.php:868
+#: includes/api/class-wc-api-orders.php:866
 msgid "Product is invalid"
 msgstr "Produsul este invalid"
 
-#: includes/api/class-wc-api-orders.php:873
+#: includes/api/class-wc-api-orders.php:871
 msgid "Product quantity must be a positive float"
 msgstr "Cantitatea produsului trebuie să fie o valoare cu zecimale pozitiva"
 
-#: includes/api/class-wc-api-orders.php:878
+#: includes/api/class-wc-api-orders.php:876
 msgid "Product quantity is required"
 msgstr "Se solicita cantitatea produsului"
 
-#: includes/api/class-wc-api-orders.php:892
+#: includes/api/class-wc-api-orders.php:890
 msgid "The product variation is invalid"
 msgstr "Variatia de produse este invalida"
 
-#: includes/api/class-wc-api-orders.php:923
+#: includes/api/class-wc-api-orders.php:921
 msgid "Cannot create line item, try again"
 msgstr "Nu se poate crea rândul articolului, încercați din nou"
 
-#: includes/api/class-wc-api-orders.php:931
+#: includes/api/class-wc-api-orders.php:929
 msgid "Cannot update line item, try again"
 msgstr "Nu se poate actualiza rândul articolului, încercați din nou"
 
-#: includes/api/class-wc-api-orders.php:949
+#: includes/api/class-wc-api-orders.php:947
 msgid "Shipping total must be a positive amount"
 msgstr "Totalul costurilor de livrare trebuie să fie pozitiv "
 
-#: includes/api/class-wc-api-orders.php:956
+#: includes/api/class-wc-api-orders.php:954
 msgid "Shipping method ID is required"
 msgstr "Este solicitată numărul de identificare ID al metodei de livrare"
 
-#: includes/api/class-wc-api-orders.php:964
+#: includes/api/class-wc-api-orders.php:962
 msgid "Cannot create shipping method, try again"
 msgstr "Nu poate fi creată metoda de livrare, te rog să încerci înca odată"
 
-#: includes/api/class-wc-api-orders.php:986
+#: includes/api/class-wc-api-orders.php:984
 msgid "Cannot update shipping method, try again"
 msgstr "Nu poate fi actualizată metoda de livrare, te rog să încerci înca odată"
 
-#: includes/api/class-wc-api-orders.php:1006
+#: includes/api/class-wc-api-orders.php:1004
 msgid "Fee title is required"
 msgstr "Este solicitat titlul taxei"
 
-#: includes/api/class-wc-api-orders.php:1018
+#: includes/api/class-wc-api-orders.php:1016
 msgid "Fee tax class is required when fee is taxable"
 msgstr "Este solicitată clasa taxei de impozitare atunci când taxa este impozabilă"
 
-#: includes/api/class-wc-api-orders.php:1039
+#: includes/api/class-wc-api-orders.php:1037
 msgid "Cannot create fee, try again"
 msgstr "Nu poate fi creată taxa, încearcă încă odată"
 
-#: includes/api/class-wc-api-orders.php:1065
+#: includes/api/class-wc-api-orders.php:1063
 msgid "Cannot update fee, try again"
 msgstr "Nu poate fi actualizată taxa, încearcă încă odată"
 
-#: includes/api/class-wc-api-orders.php:1083
+#: includes/api/class-wc-api-orders.php:1081
 msgid "Coupon discount total must be a positive amount"
 msgstr "Totalul discountului cuponului trebuie să fie pozitiv"
 
-#: includes/api/class-wc-api-orders.php:1090
+#: includes/api/class-wc-api-orders.php:1088
 msgid "Coupon code is required"
 msgstr "Este solicitat codul cuponului"
 
-#: includes/api/class-wc-api-orders.php:1096
+#: includes/api/class-wc-api-orders.php:1094
 msgid "Cannot create coupon, try again"
 msgstr "Nu poate fi creat cuponul, încearcă încă odată"
 
-#: includes/api/class-wc-api-orders.php:1114
+#: includes/api/class-wc-api-orders.php:1112
 msgid "Cannot update coupon, try again"
 msgstr "Nu poate fi actualizat cuponul, încearcă încă odată"
 
-#: includes/api/class-wc-api-orders.php:1179
-#: includes/api/class-wc-api-orders.php:1279
-#: includes/api/class-wc-api-orders.php:1341
+#: includes/api/class-wc-api-orders.php:1177
+#: includes/api/class-wc-api-orders.php:1277
+#: includes/api/class-wc-api-orders.php:1339
 msgid "Invalid order note ID"
 msgstr "Numărul de identificare ID al observațiilor la comandă este invalid"
 
-#: includes/api/class-wc-api-orders.php:1185
-#: includes/api/class-wc-api-orders.php:1286
-#: includes/api/class-wc-api-orders.php:1348
+#: includes/api/class-wc-api-orders.php:1183
+#: includes/api/class-wc-api-orders.php:1284
+#: includes/api/class-wc-api-orders.php:1346
 msgid "An order note with the provided ID could not be found"
 msgstr "Observația la comandă nu a putut fi găsită după numarul de identificare ID"
 
-#: includes/api/class-wc-api-orders.php:1215
+#: includes/api/class-wc-api-orders.php:1213
 msgid "You do not have permission to create order notes"
 msgstr "Nu aveți permisiunea pentru a crea obeservații la comandă"
 
-#: includes/api/class-wc-api-orders.php:1230
+#: includes/api/class-wc-api-orders.php:1228
 msgid "Order note is required"
 msgstr "Este solicitată obeservația la comandă"
 
-#: includes/api/class-wc-api-orders.php:1239
+#: includes/api/class-wc-api-orders.php:1237
 msgid "Cannot create order note, please try again"
 msgstr "Nu poate fi creată observația la comandă, te rog să încerci încă odată"
 
-#: includes/api/class-wc-api-orders.php:1291
-#: includes/api/class-wc-api-orders.php:1353
+#: includes/api/class-wc-api-orders.php:1289
+#: includes/api/class-wc-api-orders.php:1351
 msgid "The order note ID provided is not associated with the order"
 msgstr "ID-ul notitei furnizat nu este asociat cu o comanda"
 
-#: includes/api/class-wc-api-orders.php:1360
+#: includes/api/class-wc-api-orders.php:1358
 msgid "This order note cannot be deleted"
 msgstr "Această notă a comenzii nu poate fi ștearsă"
 
-#: includes/api/class-wc-api-orders.php:1365
+#: includes/api/class-wc-api-orders.php:1363
 msgid "Permanently deleted order note"
 msgstr "Observațiile comenzii au fost ștearse definitiv"
 
-#: includes/api/class-wc-api-orders.php:1426
-#: includes/api/class-wc-api-orders.php:1580
-#: includes/api/class-wc-api-orders.php:1639
+#: includes/api/class-wc-api-orders.php:1424
+#: includes/api/class-wc-api-orders.php:1578
+#: includes/api/class-wc-api-orders.php:1637
 msgid "Invalid order refund ID"
 msgstr "ID-ul pentru rambursare comanda este nevalid"
 
-#: includes/api/class-wc-api-orders.php:1433
-#: includes/api/class-wc-api-orders.php:1587
-#: includes/api/class-wc-api-orders.php:1646
+#: includes/api/class-wc-api-orders.php:1431
+#: includes/api/class-wc-api-orders.php:1585
+#: includes/api/class-wc-api-orders.php:1644
 msgid "An order refund with the provided ID could not be found"
 msgstr "O restituire comanda cu ID-ul furnizat nu a putut fi găsit"
 
-#: includes/api/class-wc-api-orders.php:1498
+#: includes/api/class-wc-api-orders.php:1496
 msgid "You do not have permission to create order refunds"
 msgstr "Nu aveți permisiunea de a crea o comandă de rambursare"
 
-#: includes/api/class-wc-api-orders.php:1504
+#: includes/api/class-wc-api-orders.php:1502
 msgid "Order ID is invalid"
 msgstr "Numărul de identificare ID al comenzii este invalid"
 
-#: includes/api/class-wc-api-orders.php:1511
+#: includes/api/class-wc-api-orders.php:1509
 msgid "Refund amount is required"
 msgstr "Este solicitată valoarea rambursării"
 
-#: includes/api/class-wc-api-orders.php:1513
+#: includes/api/class-wc-api-orders.php:1511
 msgid "Refund amount must be positive"
 msgstr "Valoarea rambursării trebuie sa fie pozitivă"
 
-#: includes/api/class-wc-api-orders.php:1523
+#: includes/api/class-wc-api-orders.php:1521
 msgid "Cannot create order refund, please try again"
 msgstr "Nu poate fi creată o comandă de rambursare, te rog să încerci încă odată"
 
-#: includes/api/class-wc-api-orders.php:1540
+#: includes/api/class-wc-api-orders.php:1538
 msgid ""
 "An error occurred while attempting to create the refund using the payment "
 "gateway API"
 msgstr "A apărut o eroare în timpul procesului de creare a comezii de rambursare utilizând portalul de plată API"
 
-#: includes/api/class-wc-api-orders.php:1592
-#: includes/api/class-wc-api-orders.php:1651
+#: includes/api/class-wc-api-orders.php:1590
+#: includes/api/class-wc-api-orders.php:1649
 msgid "The order refund ID provided is not associated with the order"
 msgstr "ID-ul restituire comanda furnizat nu este asociat cu comanda"
 
@@ -5376,67 +5704,67 @@ msgstr "Ne pare rău, sesiunea dvs. a expirat."
 msgid "Return to homepage"
 msgstr "Întoarcere la Pagina Principală"
 
-#: includes/class-wc-ajax.php:644
+#: includes/class-wc-ajax.php:664
 msgid "Same as parent"
 msgstr "La fel ca părintele"
 
-#: includes/class-wc-ajax.php:645
+#: includes/class-wc-ajax.php:665
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:212
 msgid "Standard"
 msgstr "Standard"
 
-#: includes/class-wc-ajax.php:654
+#: includes/class-wc-ajax.php:674
 msgid "Do not allow"
 msgstr "Nu permite"
 
-#: includes/class-wc-ajax.php:655
+#: includes/class-wc-ajax.php:675
 msgid "Allow, but notify customer"
 msgstr "Permite, dar notifică clientul"
 
-#: includes/class-wc-ajax.php:656
+#: includes/class-wc-ajax.php:676
 msgid "Allow"
 msgstr "Permite"
 
-#: includes/class-wc-ajax.php:936
+#: includes/class-wc-ajax.php:968
 msgid "File %d"
 msgstr "Fișier %d"
 
-#: includes/class-wc-ajax.php:1210
+#: includes/class-wc-ajax.php:1273
 msgid ""
 "No products had their stock reduced - they may not have stock management "
 "enabled."
 msgstr "Nu a fost redus stocul niciunui produs - este posibil să nu aibă opțiunea de gestionare a stocurilor activată "
 
-#: includes/class-wc-ajax.php:1249 includes/class-wc-ajax.php:1250
-#: includes/class-wc-ajax.php:1931
+#: includes/class-wc-ajax.php:1316 includes/class-wc-ajax.php:1317
+#: includes/class-wc-ajax.php:2050
 msgid "Item #%s stock increased from %s to %s."
 msgstr "Stocul articolului #%s a fost crescut de la %s la %s."
 
-#: includes/class-wc-ajax.php:1257
+#: includes/class-wc-ajax.php:1324
 msgid ""
 "No products had their stock increased - they may not have stock management "
 "enabled."
 msgstr "Nu a fost crescut stocul niciunui produs - este posibil să nu aibă opțiunea de gestionare a stocurilor activată "
 
-#: includes/class-wc-ajax.php:1272
+#: includes/class-wc-ajax.php:1343
 #: includes/widgets/class-wc-widget-product-categories.php:52
 #: templates/single-product-reviews.php:65
 msgid "Name"
 msgstr "Nume"
 
-#: includes/class-wc-ajax.php:1272
+#: includes/class-wc-ajax.php:1343
 msgid "Value"
 msgstr "Valoare"
 
-#: includes/class-wc-ajax.php:1502
+#: includes/class-wc-ajax.php:1593
 msgid "Delete note"
 msgstr "Șterge mențiunea"
 
-#: includes/class-wc-ajax.php:1871
+#: includes/class-wc-ajax.php:1990
 msgid "Invalid refund amount"
 msgstr "Suma rambursata este nevalida"
 
-#: includes/class-wc-ajax.php:1916
+#: includes/class-wc-ajax.php:2035
 msgid "Refund failed"
 msgstr "Rambursarea a eșuat"
 
@@ -5464,7 +5792,7 @@ msgstr "Rezultate căutări pentru &ldquo;%s&rdquo;"
 msgid "Page %d"
 msgstr "Pagina %d"
 
-#: includes/class-wc-cache-helper.php:132
+#: includes/class-wc-cache-helper.php:146
 msgid ""
 "In order for <strong>database caching</strong> to work with WooCommerce you "
 "must add <code>_wc_session_</code> to the \"Ignored Query Strings\" option "
@@ -5541,7 +5869,8 @@ msgstr "Nu poți adăuga cantitatea respectivă în coș &mdash; avem %s în sto
 #: includes/class-wc-emails.php:43 includes/class-wc-emails.php:52
 #: includes/class-wc-payment-gateways.php:46
 #: includes/class-wc-payment-gateways.php:55 includes/class-wc-shipping.php:65
-#: includes/class-wc-shipping.php:74 woocommerce.php:106 woocommerce.php:114
+#: includes/class-wc-shipping.php:74 includes/emails/class-wc-email.php:696
+#: woocommerce.php:106 woocommerce.php:114
 msgid "Cheatin&#8217; huh?"
 msgstr "Trișezi huh?"
 
@@ -5633,7 +5962,7 @@ msgstr "the"
 msgid "VAT"
 msgstr "TVA"
 
-#: includes/class-wc-countries.php:284 includes/class-wc-tax.php:632
+#: includes/class-wc-countries.php:284 includes/class-wc-tax.php:633
 msgid "Tax"
 msgstr "Taxă"
 
@@ -6060,7 +6389,7 @@ msgid "Please select a rating"
 msgstr "Vă rugăm selectați o notă"
 
 #: includes/class-wc-frontend-scripts.php:222
-#: includes/wc-template-functions.php:1565
+#: includes/wc-template-functions.php:1579
 msgid "required"
 msgstr "obligatoriu"
 
@@ -6079,39 +6408,39 @@ msgstr "Ne pare rău, acest produs nu este disponibil. Te rugăm să alegi o alt
 msgid "Select an option&hellip;"
 msgstr "Selectează o opțiune&hellip;"
 
-#: includes/class-wc-install.php:421
+#: includes/class-wc-install.php:437
 msgid "Customer"
 msgstr "Client"
 
-#: includes/class-wc-install.php:428
+#: includes/class-wc-install.php:444
 msgid "Shop Manager"
 msgstr "Manager Magazin"
 
-#: includes/class-wc-install.php:648
+#: includes/class-wc-install.php:664
 msgid "View WooCommerce Settings"
 msgstr "Vezi setările WooCommerce"
 
-#: includes/class-wc-install.php:664
+#: includes/class-wc-install.php:680
 msgid "View WooCommerce Documentation"
 msgstr "Vezi documentația WooCommerce"
 
-#: includes/class-wc-install.php:664
+#: includes/class-wc-install.php:680
 msgid "Docs"
 msgstr "Documentație"
 
-#: includes/class-wc-install.php:665
+#: includes/class-wc-install.php:681
 msgid "View WooCommerce API Docs"
 msgstr "Vezi documentația API WooCommerce"
 
-#: includes/class-wc-install.php:665
+#: includes/class-wc-install.php:681
 msgid "API Docs"
 msgstr "Documentație API"
 
-#: includes/class-wc-install.php:666
+#: includes/class-wc-install.php:682
 msgid "Visit Premium Customer Support Forum"
 msgstr "Vizitează centrul de ajutor pentru clienții premium"
 
-#: includes/class-wc-install.php:666
+#: includes/class-wc-install.php:682
 msgid "Premium Support"
 msgstr "Suport Premium"
 
@@ -6405,7 +6734,7 @@ msgstr "Rambursări"
 msgid "Coupons"
 msgstr "Cupoane"
 
-#: includes/class-wc-post-types.php:340 templates/cart/cart.php:119
+#: includes/class-wc-post-types.php:340 templates/cart/cart.php:122
 msgid "Coupon"
 msgstr "Cupon"
 
@@ -6607,7 +6936,7 @@ msgstr "Adaugă o Modalitate de Plată"
 msgid "Lost Password"
 msgstr "Ai uitat parola"
 
-#: includes/class-wc-shortcodes.php:958
+#: includes/class-wc-shortcodes.php:967
 msgid ""
 "Use $args[\"posts_per_page\"] instead. Deprecated argument will be removed "
 "in WC 2.2."
@@ -6631,7 +6960,7 @@ msgstr "[{site_title}] Comanda anulata ({order_number})"
 #: includes/emails/class-wc-email-cancelled-order.php:117
 #: includes/emails/class-wc-email-customer-completed-order.php:143
 #: includes/emails/class-wc-email-new-order.php:123
-#: includes/emails/class-wc-email.php:477
+#: includes/emails/class-wc-email.php:478
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:74
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:54
 #: includes/gateways/paypal/includes/settings-paypal.php:12
@@ -6645,7 +6974,7 @@ msgstr "Activează / Dezactivează"
 #: includes/emails/class-wc-email-cancelled-order.php:119
 #: includes/emails/class-wc-email-customer-completed-order.php:145
 #: includes/emails/class-wc-email-new-order.php:125
-#: includes/emails/class-wc-email.php:479
+#: includes/emails/class-wc-email.php:480
 msgid "Enable this email notification"
 msgstr "Activează această notificare de e-mail"
 
@@ -6691,7 +7020,7 @@ msgstr "Aceasta controlează Antetul principal conținut în notificările prin 
 #: includes/emails/class-wc-email-customer-completed-order.php:177
 #: includes/emails/class-wc-email-customer-invoice.php:179
 #: includes/emails/class-wc-email-new-order.php:150
-#: includes/emails/class-wc-email.php:497
+#: includes/emails/class-wc-email.php:498
 msgid "Email type"
 msgstr "Tip email"
 
@@ -6699,7 +7028,7 @@ msgstr "Tip email"
 #: includes/emails/class-wc-email-customer-completed-order.php:179
 #: includes/emails/class-wc-email-customer-invoice.php:181
 #: includes/emails/class-wc-email-new-order.php:152
-#: includes/emails/class-wc-email.php:499
+#: includes/emails/class-wc-email.php:500
 msgid "Choose which format of email to send."
 msgstr "Alege formatul folosit pentru trimiterea e-mailurilor."
 
@@ -6738,8 +7067,8 @@ msgstr "Comanda ta de la {site_title} din data {order_date} este finalizată - d
 #: includes/emails/class-wc-email-customer-invoice.php:160
 #: includes/emails/class-wc-email-customer-invoice.php:167
 #: includes/emails/class-wc-email-customer-invoice.php:174
-#: includes/emails/class-wc-email.php:485
-#: includes/emails/class-wc-email.php:492
+#: includes/emails/class-wc-email.php:486
+#: includes/emails/class-wc-email.php:493
 msgid "Defaults to <code>%s</code>"
 msgstr "Implicit la <code>%s</code>"
 
@@ -6778,12 +7107,12 @@ msgid "Order {order_number} details"
 msgstr "Detalii Comandă {order_number}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:151
-#: includes/emails/class-wc-email.php:483
+#: includes/emails/class-wc-email.php:484
 msgid "Email subject"
 msgstr "Subiect Email"
 
 #: includes/emails/class-wc-email-customer-invoice.php:158
-#: includes/emails/class-wc-email.php:490
+#: includes/emails/class-wc-email.php:491
 msgid "Email heading"
 msgstr "Antet Email"
 
@@ -6881,19 +7210,19 @@ msgstr "Comandă client nou"
 msgid "[{site_title}] New customer order ({order_number}) - {order_date}"
 msgstr "[{site_title}] Comandă nouă de la client ({order_number}) - {order_date}"
 
-#: includes/emails/class-wc-email.php:514
+#: includes/emails/class-wc-email.php:515
 msgid "Plain text"
 msgstr "Text Simplu"
 
-#: includes/emails/class-wc-email.php:518
+#: includes/emails/class-wc-email.php:519
 msgid "HTML"
 msgstr "HTML"
 
-#: includes/emails/class-wc-email.php:519
+#: includes/emails/class-wc-email.php:520
 msgid "Multipart"
 msgstr "Mai multe părţi"
 
-#: includes/emails/class-wc-email.php:556
+#: includes/emails/class-wc-email.php:557
 #: includes/emails/class-wc-email.php:580
 msgid "Could not write to template file."
 msgstr "Nu am putut scrie în fișierul șablon."
@@ -6906,47 +7235,51 @@ msgstr "Fișier șablon copiat în directorul temei."
 msgid "Template file deleted from theme."
 msgstr "Fișier șablon șters din temă."
 
-#: includes/emails/class-wc-email.php:741
+#: includes/emails/class-wc-email.php:692
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/emails/class-wc-email.php:752
 msgid "HTML template"
 msgstr "Șablon - format HTML"
 
-#: includes/emails/class-wc-email.php:742
+#: includes/emails/class-wc-email.php:753
 msgid "Plain text template"
 msgstr "Șablon - format text simplu"
 
-#: includes/emails/class-wc-email.php:767
+#: includes/emails/class-wc-email.php:778
 msgid "Delete template file"
 msgstr "Șterge fișierul șablon"
 
-#: includes/emails/class-wc-email.php:770
+#: includes/emails/class-wc-email.php:781
 msgid ""
 "This template has been overridden by your theme and can be found in: "
 "<code>%s</code>."
 msgstr "Acest șablon a fost înlocuit de tema dvs. și poate fi găsit la în: <code>%s</code>."
 
-#: includes/emails/class-wc-email.php:783
+#: includes/emails/class-wc-email.php:794
 msgid "Copy file to theme"
 msgstr "Copiază fișierul în directorul temei curente"
 
-#: includes/emails/class-wc-email.php:786
+#: includes/emails/class-wc-email.php:797
 msgid ""
 "To override and edit this email template copy <code>%s</code> to your theme "
 "folder: <code>%s</code>."
 msgstr "Pentru a înlocui şi edita acest şablon de e-mail, copiază <code>%s</code> în directorul: <code>%s</code> din interiorul temei active."
 
-#: includes/emails/class-wc-email.php:795
+#: includes/emails/class-wc-email.php:806
 msgid "File was not found."
 msgstr "Fișierul nu a fost găsit."
 
-#: includes/emails/class-wc-email.php:820
+#: includes/emails/class-wc-email.php:831
 msgid "View template"
 msgstr "Vizualizează șablon"
 
-#: includes/emails/class-wc-email.php:821
+#: includes/emails/class-wc-email.php:832
 msgid "Hide template"
 msgstr "Ascunde șablon"
 
-#: includes/emails/class-wc-email.php:832
+#: includes/emails/class-wc-email.php:843
 msgid "Are you sure you want to delete this template file?"
 msgstr "Ești sigur că vrei să ștergi acest șablon?"
 
@@ -7005,7 +7338,7 @@ msgstr "Transfer Bancar direct"
 #: includes/gateways/cod/class-wc-gateway-cod.php:75
 #: includes/gateways/paypal/includes/settings-paypal.php:25
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:199
-#: includes/wc-template-functions.php:934
+#: includes/wc-template-functions.php:948
 msgid "Description"
 msgstr "Descriere"
 
@@ -7222,77 +7555,77 @@ msgstr "Aceeptarea de logouri de catre Paypal (PayPal logos, grafica si butoane.
 msgid "What is PayPal?"
 msgstr "Ce este PayPal ?"
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:204
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:199
 msgid "Gateway Disabled"
 msgstr "Portal Dezactivat"
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:204
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:199
 msgid "PayPal does not support your store currency."
 msgstr "PayPal nu suportă moneda setată implicit pentru magazinul tău."
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:292
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:287
 msgid "Refunded %s - Refund ID: %s"
 msgstr "Rambursat %s - ID Rambursare: %s"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:132
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:131
 msgid "Validation error: PayPal currencies do not match (code %s)."
 msgstr "Eroare de validare: monedele PayPal nu corespund (cod %s)."
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:146
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:145
 msgid "Validation error: PayPal amounts do not match (gross %s)."
 msgstr "Eroare în timpul Validării: Sumele PayPal nu se potrivesc (brut %s )."
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:160
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:159
 msgid ""
 "Validation error: PayPal IPN response from a different email address (%s)."
 msgstr "Eroare în timpul Validării: Răspunul PayPal IPN este de la o adresă de email diferită (%s)."
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:183
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:182
 msgid "IPN payment completed"
 msgstr "Plată IPN finalizată"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:185
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:184
 msgid "Payment pending: %s"
 msgstr "Plată în așteptare: %s"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:202
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:238
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:252
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:201
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:237
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:251
 msgid "Payment %s via IPN."
 msgstr "Plata %s prin IPN"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:241
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:240
 msgid "Payment for order #%s refunded/reversed"
 msgstr "Plata pentru comanda #%s a fost rambursată / inversată"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:242
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:241
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
 msgstr "Comanda %s a fost marcată ca rambursată - Codul motivului invocat de PayPal: %s"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:255
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:254
 msgid "Payment for order #%s reversed"
 msgstr "Plata pentru comanda #%s a fost  inversată"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:256
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:255
 msgid ""
 "Order %s has been marked on-hold due to a reversal - PayPal reason code: %s"
 msgstr "Comanda %s a fost marcată ca fiind în așteptare datorită unei anulări - cod eroare PayPal: %s"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:266
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:265
 msgid "Reversal cancelled for order #%s"
 msgstr "Inversare anulată pentru comanda #%s"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:267
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:266
 msgid ""
 "Order #%s has had a reversal cancelled. Please check the status of payment "
 "and update the order status accordingly here: %s"
 msgstr "Comanda #%s a avut o inversare anulată. Vă rugăm să verificați statutul de plată și actualizați starea comenzii în consecință aici: %s"
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php:75
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php:74
 msgid "Validation error: PayPal amounts do not match (amt %s)."
 msgstr "Eroare de validare: Sumele PayPal nu se potrivesc (sumă %s)."
 
-#: includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php:77
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-pdt-handler.php:76
 msgid "PDT payment completed"
 msgstr "Plată PDT finalizată"
 
@@ -8468,95 +8801,95 @@ msgstr "Produs Extern / Afiliat"
 msgid "Variable product"
 msgstr "Produs Variabil"
 
-#: includes/wc-template-functions.php:120
+#: includes/wc-template-functions.php:134
 msgid "New products"
 msgstr "Produse noi"
 
-#: includes/wc-template-functions.php:128
+#: includes/wc-template-functions.php:142
 msgid "New products added to %s"
 msgstr "Produse noi adăugate la %s"
 
-#: includes/wc-template-functions.php:136
+#: includes/wc-template-functions.php:150
 msgid "New products tagged %s"
 msgstr "Produse noi etichetate cu %s"
 
-#: includes/wc-template-functions.php:372
+#: includes/wc-template-functions.php:386
 msgid ""
 "This is a demo store for testing purposes &mdash; no orders shall be "
 "fulfilled."
 msgstr "Acesta este un magazin demo pentru testare &mdash; nici o comandă nu va fi onorată."
 
-#: includes/wc-template-functions.php:391
+#: includes/wc-template-functions.php:405
 msgid "Search Results: &ldquo;%s&rdquo;"
 msgstr "Rezultatele Căutării &ldquo;%s&rdquo;"
 
-#: includes/wc-template-functions.php:394
+#: includes/wc-template-functions.php:408
 msgid "&nbsp;&ndash; Page %s"
 msgstr "&nbsp;&ndash; Pagina %s"
 
-#: includes/wc-template-functions.php:625
+#: includes/wc-template-functions.php:639
 msgid "Default sorting"
 msgstr "Sortare implicită"
 
-#: includes/wc-template-functions.php:626
+#: includes/wc-template-functions.php:640
 msgid "Sort by popularity"
 msgstr "Sortează după popularitate"
 
-#: includes/wc-template-functions.php:627
+#: includes/wc-template-functions.php:641
 msgid "Sort by average rating"
 msgstr "Sortează după Nota Medie "
 
-#: includes/wc-template-functions.php:628
+#: includes/wc-template-functions.php:642
 msgid "Sort by newness"
 msgstr "Sortează după noutate"
 
-#: includes/wc-template-functions.php:629
+#: includes/wc-template-functions.php:643
 msgid "Sort by price: low to high"
 msgstr "Sortează după preț: Mic la Mare"
 
-#: includes/wc-template-functions.php:630
+#: includes/wc-template-functions.php:644
 msgid "Sort by price: high to low"
 msgstr "Sortează după preț: Mare la Mic"
 
-#: includes/wc-template-functions.php:943
+#: includes/wc-template-functions.php:957
 #: templates/checkout/form-shipping.php:58
 #: templates/single-product/tabs/additional-information.php:16
 msgid "Additional Information"
 msgstr "Informații adiționale"
 
-#: includes/wc-template-functions.php:952
+#: includes/wc-template-functions.php:966
 msgid "Reviews (%d)"
 msgstr "Recenzii (%d)"
 
-#: includes/wc-template-functions.php:1036
+#: includes/wc-template-functions.php:1050
 msgid ""
 "Use $args argument as an array instead. Deprecated argument will be removed "
 "in WC 2.2."
 msgstr "Folosește argument $args într-un array ca înlocuitor. Acest argument învechit va fi înlăturat în WC 2.2."
 
-#: includes/wc-template-functions.php:1132
+#: includes/wc-template-functions.php:1146
 msgid "Proceed to Checkout"
 msgstr "La finalizare comandă"
 
-#: includes/wc-template-functions.php:1251
+#: includes/wc-template-functions.php:1265
 msgid "Place order"
 msgstr "Plasează Comanda"
 
-#: includes/wc-template-functions.php:1623
+#: includes/wc-template-functions.php:1637
 #: templates/cart/shipping-calculator.php:30
 msgid "Select a country&hellip;"
 msgstr "Selectează țara&hellip;"
 
-#: includes/wc-template-functions.php:1631
+#: includes/wc-template-functions.php:1645
 msgid "Update country"
 msgstr "Actualizează țara"
 
-#: includes/wc-template-functions.php:1671
+#: includes/wc-template-functions.php:1685
 #: templates/cart/shipping-calculator.php:54
 msgid "Select a state&hellip;"
 msgstr "Selectează Stat&hellip;"
 
-#: includes/wc-template-functions.php:1777
+#: includes/wc-template-functions.php:1791
 #: templates/single-product/add-to-cart/variable.php:27
 msgid "Choose an option"
 msgstr "Alegeți o opțiune"
@@ -8965,15 +9298,15 @@ msgstr "Cantitate"
 msgid "Remove this item"
 msgstr "Șterge Acest articol"
 
-#: templates/cart/cart.php:119 templates/checkout/form-coupon.php:25
+#: templates/cart/cart.php:122 templates/checkout/form-coupon.php:25
 msgid "Coupon code"
 msgstr "Cod Promoțional"
 
-#: templates/cart/cart.php:119 templates/checkout/form-coupon.php:29
+#: templates/cart/cart.php:122 templates/checkout/form-coupon.php:29
 msgid "Apply Coupon"
 msgstr "Aplică Cupon"
 
-#: templates/cart/cart.php:126
+#: templates/cart/cart.php:128
 msgid "Update Cart"
 msgstr "Actualizează Coș"
 
@@ -9853,42 +10186,42 @@ msgctxt "enhanced select"
 msgid "Searching&hellip;"
 msgstr "Căutare&hellip;"
 
-#: includes/class-wc-install.php:195
+#: includes/class-wc-install.php:211
 msgctxt "Page slug"
 msgid "shop"
 msgstr "magazin"
 
-#: includes/class-wc-install.php:200
+#: includes/class-wc-install.php:216
 msgctxt "Page slug"
 msgid "cart"
 msgstr "cos"
 
-#: includes/class-wc-install.php:205
+#: includes/class-wc-install.php:221
 msgctxt "Page slug"
 msgid "checkout"
 msgstr "finalizare-comanda"
 
-#: includes/class-wc-install.php:210
+#: includes/class-wc-install.php:226
 msgctxt "Page slug"
 msgid "my-account"
 msgstr "contul-meu"
 
-#: includes/class-wc-install.php:196
+#: includes/class-wc-install.php:212
 msgctxt "Page title"
 msgid "Shop"
 msgstr "Magazin"
 
-#: includes/class-wc-install.php:201
+#: includes/class-wc-install.php:217
 msgctxt "Page title"
 msgid "Cart"
 msgstr "Coș"
 
-#: includes/class-wc-install.php:206
+#: includes/class-wc-install.php:222
 msgctxt "Page title"
 msgid "Checkout"
 msgstr "Plasează Comanda"
 
-#: includes/class-wc-install.php:211
+#: includes/class-wc-install.php:227
 msgctxt "Page title"
 msgid "My Account"
 msgstr "Contul Meu"
@@ -10030,7 +10363,7 @@ msgctxt "edit-address-slug"
 msgid "shipping"
 msgstr "Expediere"
 
-#: includes/wc-template-functions.php:1206
+#: includes/wc-template-functions.php:1220
 msgctxt "breadcrumb"
 msgid "Home"
 msgstr "Acasă"
