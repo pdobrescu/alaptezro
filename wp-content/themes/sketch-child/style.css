@@ -11,6 +11,10 @@
  Text Domain:  sketch-child
 */
 
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 /* Show the toggle menu at smaller screen sizes */
 @media screen and ( min-width: 641px ) {
   .menu-toggle {
