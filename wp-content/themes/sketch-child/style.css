@@ -15,6 +15,15 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+article#post-30.page {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+article#post-30.page footer.entry-footer {
+  margin-bottom: 0px;
+}
+
 /* Show the toggle menu at smaller screen sizes */
 @media screen and ( min-width: 641px ) {
   .menu-toggle {
