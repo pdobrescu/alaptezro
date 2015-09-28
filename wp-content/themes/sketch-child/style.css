@@ -36,6 +36,18 @@ a.home-button {
     text-shadow: none;
 }
 
+a.home-button:hover {
+    border-color: #e40e74;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #e40e74;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 article#post-30.page {
   margin-bottom: 0px;
   padding-bottom: 0px;
