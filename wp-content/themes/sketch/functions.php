@@ -125,12 +125,16 @@ function sketch_scripts() {
 
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.3' );
 
-	if ( sketch_has_featured_posts( 2 ) ) {
-		wp_enqueue_script( 'sketch-flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js', array( 'jquery' ), '20140530', true );
+	if ( sketch_has_featured_posts( 2 ) && is_page_template( 'portfolio-page.php' ) ) {
+		wp_enqueue_script( 'sketch-flexslider', get_template_directory_uri() . '/js/jquery.flexslider.js', array( 'jquery' ), '20150811', true );
 		wp_enqueue_script( 'sketch-script', get_template_directory_uri() . '/js/sketch.js', array( 'jquery' ), '20140530', true );
 
 	}
 	wp_enqueue_script( 'sketch-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+
+	if ( is_post_type_archive( 'jetpack-portfolio' ) || is_tax( 'jetpack-portfolio-type' ) || is_tax( 'jetpack-portfolio-tag' ) ) {
+		wp_enqueue_script( 'sketch-portfolio', get_template_directory_uri() . '/js/portfolio.js', array( 'jquery' ), '20150708', true );
+	}
 
 	wp_enqueue_script( 'sketch-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
@@ -145,25 +149,25 @@ add_action( 'wp_enqueue_scripts', 'sketch_scripts' );
  */
 function sketch_fonts_url() {
     $fonts_url = '';
-    
+
     /* Translators: If there are characters in your language that are not
 	 * supported by Lato, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
 	$lato = _x( 'on', 'Lato font: on or off', 'sketch' );
-	
+
 	if ( 'off' !== $lato ) {
 		$font_families = array();
 		$font_families[] = 'Lato:300,400,700,300italic,400italic,700italic';
-		
+
 		$query_args = array(
 			'family' => urlencode( implode( '|', $font_families ) ),
 			'subset' => urlencode( 'latin,latin-ext' ),
 		);
-	
-		$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+
+		$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
-	
+
 	return $fonts_url;
 
 }
@@ -194,7 +198,7 @@ function sketch_post_thumbnail_class() {
 
 	if ( ! has_post_thumbnail() )
 		$thumbsize .= ' no-thumbnail';
-		
+
 	return $thumbsize;
 }
 

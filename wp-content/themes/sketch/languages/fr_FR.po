@@ -1,104 +1,94 @@
-# Translation of Sketch in Portuguese (Brazil)
+# Translation of Sketch in French (France)
 # This file is distributed under the same license as the Sketch package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-10-29 14:35:33+0000\n"
+"PO-Revision-Date: 2015-05-25 08:13:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: GlotPress/0.1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Sketch\n"
 
 #. Template Name of the plugin/theme
-msgid "Full Width, No Sidebar"
-msgstr ""
+#: wp-content/themes/pub/sketch/portfolio-page.php
+msgid "Portfolio Page Template"
+msgstr "Modèle de page du portefeuille"
 
 #. Template Name of the plugin/theme
-msgid "Portfolio Page Template"
-msgstr "Modelo de página de portfólio"
-
-#. Description of the plugin/theme
-msgid "A clean, responsive portfolio theme with options for a custom site logo, a featured content slider, and lots of room to share your work."
-msgstr ""
+#: wp-content/themes/pub/sketch/fullwidth-page.php
+msgid "Full Width, No Sidebar"
+msgstr "Pleine largeur, sans barre latérale"
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr "Resultados da pesquisa por: %s"
+msgstr "Résultats de recherche pour : %s"
 
 #: inc/template-tags.php:217
 msgid "All %s posts"
-msgstr "Todos o conteúdo de tipo %s"
+msgstr "Tous les articles de %s"
 
 #: portfolio-page.php:84
 msgid "No Project Found"
-msgstr "Nenhum projeto foi encontrado"
+msgstr "Pas de projet trouvé"
 
 #: portfolio-page.php:90
 msgid "Ready to publish your first project? <a href=\"%1$s\">Get started here</a>."
-msgstr "Preparado para publicar seu primeiro projeto? <a href=\"%1$s\">Comece aqui</a>."
+msgstr "Prêt à publier votre premier projet ? <a href=\"%1$s\">Commencez ici</a>."
 
 #: inc/template-tags.php:61
 msgctxt "Previous post link"
 msgid "<span class=\"meta-nav\"><</span> %title"
-msgstr ""
+msgstr "<span class=\"meta-nav\"><</span> %title"
 
 #: inc/template-tags.php:62
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">></span>"
-msgstr ""
-
-#: inc/template-tags.php:87
-msgid "<span class=\"posted-on\">%1$s</span><span class=\"byline\"><span class=\"sep\"> | </span>%2$s</span>"
-msgstr ""
+msgstr "%title <span class=\"meta-nav\">></span>"
 
 #: inc/template-tags.php:173
 msgid "More Projects"
-msgstr "Mais projetos"
-
-#: inc/template-tags.php:31
-msgid "<span class=\"meta-nav\">Previous</span>"
-msgstr "<span class=\"meta-nav\">Anterior</span>"
+msgstr "Plus de projets"
 
 #: inc/template-tags.php:35
 msgid "<span class=\"meta-nav\">Next</span>"
-msgstr "<span class=\"meta-nav\">Próximo</span>"
+msgstr "<span class=\"meta-nav\">Suivant</span>"
 
 #: inc/template-tags.php:58
 msgid "Post navigation"
-msgstr "Navegação de Posts"
+msgstr "Navigation des articles"
+
+#: inc/template-tags.php:31
+msgid "<span class=\"meta-nav\">Previous</span>"
+msgstr "<span class=\"meta-nav\">Précédent</span>"
 
 #: inc/template-tags.php:27
 msgid "Posts navigation"
-msgstr "Navegação de Posts"
+msgstr "Navigation des articles"
 
 #: inc/extras.php:71
 msgid "Page %s"
-msgstr "Página %s"
-
-#: inc/customizer.php:29
-msgid "Portfolio Thumbnail Aspect Ratio"
-msgstr "Proporção das miniaturas no portfólio"
-
-#: inc/customizer.php:33
-msgid "Landscape (4:3)"
-msgstr "Paisagem (4:3)"
+msgstr "Page %s"
 
 #: inc/customizer.php:34
 msgid "Portrait (3:4)"
-msgstr "Retrato (3:4)"
-
-#: inc/customizer.php:35
-msgid "Square (1:1)"
-msgstr "Quadrado (1:1)"
+msgstr "Portrait (3:4)"
 
 #: inc/customizer.php:45
 msgid "Hide title and content on Portfolio Page Template"
-msgstr "Ocultar título e conteúdo no Modelo de página de portfólio"
+msgstr "Masquer le titre et le contenu sur le modèle de page du portefeuille"
+
+#: inc/customizer.php:35
+msgid "Square (1:1)"
+msgstr "Carré (1:1)"
+
+#: inc/customizer.php:33
+msgid "Landscape (4:3)"
+msgstr "Paysage (4:3)"
 
 #: inc/customizer.php:19
 msgid "Theme"
-msgstr "Tema"
+msgstr "Thème"
 
 #: header.php:32
 msgid "Menu"
@@ -106,35 +96,35 @@ msgstr "Menu"
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "Pular para o conteúdo"
+msgstr "Aller au contenu principal"
 
 #. Translators: If there are characters in your language that are not
 #. * supported by Lato, translate this to 'off'. Do not translate
 #. * into your own language.
-#: functions.php:153
+#: functions.php:157
 msgctxt "Lato font: on or off"
 msgid "on"
-msgstr "ativa"
+msgstr "on"
 
 #: functions.php:67
 msgid "Social Links"
-msgstr "Links de Mídias Sociais"
+msgstr "Liens Sociaux"
 
 #: functions.php:108
 msgid "Sidebar"
-msgstr "Lateral"
+msgstr "Colonne latérale"
 
 #: functions.php:66
 msgid "Primary Menu"
-msgstr "Menu Principal"
+msgstr "Menu principal"
 
 #: footer.php:17
 msgid "Theme: %1$s by %2$s."
-msgstr "Tema: %1$s por %2$s. "
+msgstr "Thème %1$s par %2$s."
 
 #: footer.php:15
 msgid "Proudly powered by %s"
-msgstr "Orgulhosamente mantido com %s"
+msgstr "Fièrement propulsé par %s"
 
 #: footer.php:15
 msgid "http://wordpress.org/"
@@ -142,7 +132,7 @@ msgstr "http://wordpress.org/"
 
 #: content-single.php:35
 msgid "Posted in %1$s"
-msgstr "Postado em %1$s"
+msgstr "Posté dans %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31
@@ -151,15 +141,15 @@ msgstr ", "
 
 #: content-portfolio-single.php:38
 msgid "% Comments"
-msgstr "% Comentários"
+msgstr "% commentaires"
 
 #: content-portfolio-single.php:38
 msgid "1 Comment"
-msgstr "1 comentário"
+msgstr "Un commentaire"
 
 #: content-portfolio-single.php:38
 msgid "Leave a comment"
-msgstr "Deixe um comentário"
+msgstr "Laisser un commentaire"
 
 #: content-portfolio-single.php:16
 msgctxt "Used between list items, there is a space after the comma."
@@ -168,62 +158,54 @@ msgstr ", "
 
 #: content-portfolio-single.php:23 content.php:33
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continuar lendo <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-page.php:18 content-portfolio-single.php:26 content-single.php:22
 #: content.php:36 portfolio-page.php:28
 msgid "Pages:"
-msgstr "Páginas:"
+msgstr "Pages&nbsp;:"
 
 #: content-none.php:28 portfolio-page.php:94
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Parece que não podemos encontrar o que você está procurando. Talvez pesquisar pode ajudar."
+msgstr "Contenu Introuvable. Voulez-vous lancer une recherche?"
 
 #: content-none.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Nada foi encontrado com os termos da sua pesquisa. Tente novamente com algumas palavras-chaves diferentes."
+msgstr "Contenu Introuvable. Réessayez en modifiant les termes de recherche."
 
 #: content-none.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Pronto para publicar seu primeiro post? <a href=\"%1$s\">Comece aqui</a>."
+msgstr "Pr&ecirc;t &agrave; publier votre premier article ? <a href=\"%1$s\">Allons-y !</a>."
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr "Nada Encontrado"
+msgstr "Aucun Résultat"
 
 #: content-featured.php:32 content-page.php:24 content-portfolio-single.php:18
 #: content-portfolio.php:17 content-single.php:14 content.php:24
 #: eventbrite/eventbrite-index.php:44 eventbrite/eventbrite-single.php:31
 #: portfolio-page.php:34
 msgid "Edit"
-msgstr "Editar"
-
-#: comments.php:36 comments.php:54
-msgid "< Older Comments"
-msgstr ""
-
-#: comments.php:37 comments.php:55
-msgid "Newer Comments >"
-msgstr ""
+msgstr "Modifier"
 
 #: comments.php:65
 msgid "Comments are closed."
-msgstr "Os comentários estão desativados."
+msgstr "Les commentaires sont fermés."
 
 #: comments.php:35 comments.php:53
 msgid "Comment navigation"
-msgstr "Navegação de Comentários"
+msgstr "Navigation des commentaires"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Um comentário sobre &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s comentários sobre &ldquo;%2$s&rdquo;"
+msgstr[0] "Une r&eacute;flexion sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s r&eacute;flexions sur &ldquo;%2$s&rdquo;"
 
 #: archive.php:66
 msgid "Archives"
-msgstr "Arquivos"
+msgstr "Archives"
 
 #: archive.php:63
 msgid "Chats"
@@ -231,35 +213,35 @@ msgstr "Chats"
 
 #: archive.php:60
 msgid "Audios"
-msgstr "Áudios"
+msgstr "Audios"
 
 #: archive.php:57
 msgid "Statuses"
-msgstr "Status"
+msgstr "États"
 
 #: archive.php:54
 msgid "Links"
-msgstr "Links"
+msgstr "Liens"
 
 #: archive.php:51
 msgid "Quotes"
-msgstr "Citações"
+msgstr "Citations"
 
 #: archive.php:48
 msgid "Videos"
-msgstr "Vídeos"
+msgstr "Vidéos"
 
 #: archive.php:45
 msgid "Images"
-msgstr "Imagens"
+msgstr "Images"
 
 #: archive.php:42
 msgid "Galleries"
-msgstr "Galerias"
+msgstr "Galeries"
 
 #: archive.php:39
 msgid "Asides"
-msgstr "Notas"
+msgstr "Apart&eacute;s"
 
 #: archive.php:36
 msgctxt "yearly archives date format"
@@ -268,7 +250,7 @@ msgstr "Y"
 
 #: archive.php:36
 msgid "Year: %s"
-msgstr "Ano: %s"
+msgstr "Ann&eacute;e: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
@@ -277,24 +259,24 @@ msgstr "F Y"
 
 #: archive.php:33
 msgid "Month: %s"
-msgstr "Mês: %s"
+msgstr "Mois: %s"
 
 #: archive.php:30
 msgid "Day: %s"
-msgstr "Dia: %s"
+msgstr "Jour: %s"
 
 #: archive.php:27
 msgid "Author: %s"
-msgstr "Autor: %s"
+msgstr "Auteur : %s"
 
 #: archive-jetpack-portfolio.php:19
 msgid "Portfolio"
-msgstr "Portfólio"
+msgstr "Portfolio"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Opa! Esta página não pode ser encontrada."
+msgstr "Oups ! Cette page est introuvable."
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Parece que não foi encontrado nada neste local. Que tal tentar uma busca?"
+msgstr "Apparemment, rien n&rsquo;a été trouvé à cette adresse. Essayez avec recherche&nbsp;?"

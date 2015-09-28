@@ -18,7 +18,7 @@ get_header(); ?>
 							<header class="entry-header">
 								<h1 class="entry-title"><?php the_title(); ?></h1>
 							</header><!-- .entry-header -->
-	
+
 							<?php if ( has_post_thumbnail() ) : ?>
 								<div class="entry-thumbnail">
 									<?php the_post_thumbnail(); ?>

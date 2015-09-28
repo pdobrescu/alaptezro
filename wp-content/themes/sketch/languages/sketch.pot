@@ -1,14 +1,14 @@
-# Copyright (C) 2014 WordPress.com
+# Copyright (C) 2015 WordPress.com
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Sketch 1.1\n"
+"Project-Id-Version: Sketch 1.1.5\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/sketch\n"
-"POT-Creation-Date: 2014-11-28 03:51:59+00:00\n"
+"POT-Creation-Date: 2015-08-01 03:50:33+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -203,7 +203,7 @@ msgstr ""
 #. Translators: If there are characters in your language that are not
 #. 	 * supported by Lato, translate this to 'off'. Do not translate
 #. 	 * into your own language.
-#: functions.php:153
+#: functions.php:157
 msgctxt "Lato font: on or off"
 msgid "on"
 msgstr ""
@@ -298,31 +298,38 @@ msgid "Search Results for: %s"
 msgstr ""
 
 #. Theme Name of the plugin/theme
+#: wp-content/themes/pub/sketch/style.css
 msgid "Sketch"
 msgstr ""
 
 #. Theme URI of the plugin/theme
+#: wp-content/themes/pub/sketch/style.css
 msgid "https://wordpress.com/themes/sketch/"
 msgstr ""
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/sketch/style.css
 msgid ""
 "A clean, responsive portfolio theme with options for a custom site logo, a "
 "featured content slider, and lots of room to share your work."
 msgstr ""
 
 #. Author of the plugin/theme
+#: wp-content/themes/pub/sketch/style.css
 msgid "WordPress.com"
 msgstr ""
 
 #. Author URI of the plugin/theme
+#: wp-content/themes/pub/sketch/style.css
 msgid "https://wordpress.com/themes/"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/sketch/fullwidth-page.php
 msgid "Full Width, No Sidebar"
 msgstr ""
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/sketch/portfolio-page.php
 msgid "Portfolio Page Template"
 msgstr ""

@@ -1,42 +1,45 @@
-# Translation of Sketch in French (France)
+# Translation of Sketch in Persian
 # This file is distributed under the same license as the Sketch package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-10-21 14:28:51+0000\n"
+"PO-Revision-Date: 2015-05-28 08:22:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/0.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Sketch\n"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/sketch/fullwidth-page.php
 msgid "Full Width, No Sidebar"
-msgstr ""
+msgstr "تمام‌پهنا، بدون نوار کناری"
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/sketch/portfolio-page.php
 msgid "Portfolio Page Template"
-msgstr "Modèle de page du portefeuille"
+msgstr "قالب صفحهٔ نمونه‌کار"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/sketch/style.css
 msgid "A clean, responsive portfolio theme with options for a custom site logo, a featured content slider, and lots of room to share your work."
-msgstr ""
+msgstr "یک پوستهٔ تمیز و پاسخ‌گو برای نمونه‌کارها. به همراه گزینه‌هایی برای نشان‌وارهٔ سفارشی برای وب‌گاه و یک لغزندهٔ مطالب ویژه و فضای زیادی برای اشتراک‌گذاری کارهایتان."
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr "Résultats de recherche pour : %s"
+msgstr "نتایج جست‌وجو برای: %s"
 
 #: inc/template-tags.php:217
 msgid "All %s posts"
-msgstr "Tous les articles de %s"
+msgstr "همهٔ %s نوشته"
 
 #: portfolio-page.php:84
 msgid "No Project Found"
-msgstr "Pas de projet trouvé"
+msgstr "هیچ پروژه‌ای یافت نشد"
 
 #: portfolio-page.php:90
 msgid "Ready to publish your first project? <a href=\"%1$s\">Get started here</a>."
-msgstr "Prêt à publier votre premier projet ? <a href=\"%1$s\">Commencez ici</a>."
+msgstr "آماده‌اید تا اولین پروژه‌تان را منتشر کنید؟ <a href=\"%1$s\">از اینجا بیآغازید</a>."
 
 #: inc/template-tags.php:61
 msgctxt "Previous post link"
@@ -50,91 +53,91 @@ msgstr "%title <span class=\"meta-nav\">></span>"
 
 #: inc/template-tags.php:87
 msgid "<span class=\"posted-on\">%1$s</span><span class=\"byline\"><span class=\"sep\"> | </span>%2$s</span>"
-msgstr ""
+msgstr "<span class=\"posted-on\">%1$s</span><span class=\"byline\"><span class=\"sep\"> | </span>%2$s</span>"
 
 #: inc/template-tags.php:173
 msgid "More Projects"
-msgstr "Plus de projects"
+msgstr "پروژه‌های بیشتر"
 
 #: inc/template-tags.php:31
 msgid "<span class=\"meta-nav\">Previous</span>"
-msgstr "<span class=\"meta-nav\">Précédent</span>"
+msgstr "<span class=\"meta-nav\">پیشین</span>"
 
 #: inc/template-tags.php:35
 msgid "<span class=\"meta-nav\">Next</span>"
-msgstr "<span class=\"meta-nav\">Suivant</span>"
+msgstr "<span class=\"meta-nav\">پسین</span>"
 
 #: inc/template-tags.php:58
 msgid "Post navigation"
-msgstr "Navigation des articles"
+msgstr "ناوبری نوشته"
 
 #: inc/template-tags.php:27
 msgid "Posts navigation"
-msgstr "Navigation des articles"
+msgstr "ناوبری نوشته‌ها"
 
 #: inc/extras.php:71
 msgid "Page %s"
-msgstr "Page %s"
+msgstr "صفحهٔ %s"
 
 #: inc/customizer.php:29
 msgid "Portfolio Thumbnail Aspect Ratio"
-msgstr ""
+msgstr "نسبت منظری تصویرک‌های Portfolio"
 
 #: inc/customizer.php:33
 msgid "Landscape (4:3)"
-msgstr "Paysage (4:3)"
+msgstr "افقی (۴:۳)"
 
 #: inc/customizer.php:34
 msgid "Portrait (3:4)"
-msgstr "Portrait (3:4)"
+msgstr "عمودی (۳:۴)"
 
 #: inc/customizer.php:35
 msgid "Square (1:1)"
-msgstr "Carré (1:1)"
+msgstr "مربع (۱:۱)"
 
 #: inc/customizer.php:45
 msgid "Hide title and content on Portfolio Page Template"
-msgstr "Masquer le titre et le contenu sur le modèle de page du portefeuille"
+msgstr "نهفتن عنوان و مطلب در قالب Portfolio Page"
 
 #: inc/customizer.php:19
 msgid "Theme"
-msgstr "Thème"
+msgstr "پوشته"
 
 #: header.php:32
 msgid "Menu"
-msgstr "Menu"
+msgstr "گزینگان"
 
 #: header.php:23
 msgid "Skip to content"
-msgstr "Aller au contenu principal"
+msgstr "پرش به محتوا"
 
 #. Translators: If there are characters in your language that are not
 #. * supported by Lato, translate this to 'off'. Do not translate
 #. * into your own language.
-#: functions.php:153
+#: functions.php:157
 msgctxt "Lato font: on or off"
 msgid "on"
-msgstr "on"
+msgstr "روشن"
 
 #: functions.php:67
 msgid "Social Links"
-msgstr "Liens Sociaux"
+msgstr "پیوندهای شبکه‌های اجتماعی"
 
 #: functions.php:108
 msgid "Sidebar"
-msgstr "Colonne latérale"
+msgstr "ستون کناری"
 
 #: functions.php:66
 msgid "Primary Menu"
-msgstr "Menu principal"
+msgstr "گزینگان اصلی"
 
 #: footer.php:17
 msgid "Theme: %1$s by %2$s."
-msgstr "Thème %1$s par %2$s."
+msgstr "پوسته: %1$s کاری از %2$s."
 
 #: footer.php:15
 msgid "Proudly powered by %s"
-msgstr "Fièrement propulsé par %s"
+msgstr "با افتخار، نیرو گرفته از %s"
 
 #: footer.php:15
 msgid "http://wordpress.org/"
@@ -142,124 +145,123 @@ msgstr "http://wordpress.org/"
 
 #: content-single.php:35
 msgid "Posted in %1$s"
-msgstr "Posté dans %1$s"
+msgstr "فرستاده‌شده در %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31
 msgid ", "
-msgstr ", "
+msgstr "، "
 
 #: content-portfolio-single.php:38
 msgid "% Comments"
-msgstr "% commentaires"
+msgstr "% دیدگاه"
 
 #: content-portfolio-single.php:38
 msgid "1 Comment"
-msgstr "Un commentaire"
+msgstr "۱ دیدگاه"
 
 #: content-portfolio-single.php:38
 msgid "Leave a comment"
-msgstr "Laisser un commentaire"
+msgstr "بیان دیدگاه"
 
 #: content-portfolio-single.php:16
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
-msgstr ", "
+msgstr "، "
 
 #: content-portfolio-single.php:23 content.php:33
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+msgstr "به خواندن ادامه دهید <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-page.php:18 content-portfolio-single.php:26 content-single.php:22
 #: content.php:36 portfolio-page.php:28
 msgid "Pages:"
-msgstr "Pages&nbsp;:"
+msgstr "صفحه‌ها:"
 
 #: content-none.php:28 portfolio-page.php:94
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Contenu Introuvable. Voulez-vous lancer une recherche?"
+msgstr "به نظر می‌آید ما نمی‌توانیم آنچه به دنبالش هستید بیابیم. احتمالا جست‌وجو می‌تواند کمک کند."
 
 #: content-none.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Contenu Introuvable. Réessayez en modifiant les termes de recherche."
+msgstr "متأسفانه، هیچ‌چیزی با عبارت‌های جستجوی شما مطابقت نداشت. لطفاً دوباره با چند کلیدواژهٔ متفاوت تلاش کنید."
 
 #: content-none.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Pr&ecirc;t &agrave; publier votre premier article ? <a href=\"%1$s\">Allons-y !</a>."
+msgstr "آمادهٔ انتشار نخستین نوشتهٔ خود هستید؟ <a href=\"%1$s\">از اینجا بیآغازید</a>."
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr "Aucun Résultat"
+msgstr "چیزی پیدا نشد"
 
 #: content-featured.php:32 content-page.php:24 content-portfolio-single.php:18
 #: content-portfolio.php:17 content-single.php:14 content.php:24
 #: eventbrite/eventbrite-index.php:44 eventbrite/eventbrite-single.php:31
 #: portfolio-page.php:34
 msgid "Edit"
-msgstr "Modifier"
+msgstr "ویرایش"
 
 #: comments.php:36 comments.php:54
 msgid "< Older Comments"
-msgstr ""
+msgstr "< دیدگاه‌های پیشین"
 
 #: comments.php:37 comments.php:55
 msgid "Newer Comments >"
-msgstr ""
+msgstr "دیدگاه‌های پسین >"
 
 #: comments.php:65
 msgid "Comments are closed."
-msgstr "Les commentaires sont fermés."
+msgstr "دیدگاه‌ها بسته شده‌اند."
 
 #: comments.php:35 comments.php:53
 msgid "Comment navigation"
-msgstr "Navigation des commentaires"
+msgstr "ناوبری دیدگاه"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Une r&eacute;flexion sur &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s r&eacute;flexions sur &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نظر برای &ldquo;%2$s&rdquo;"
 
 #: archive.php:66
 msgid "Archives"
-msgstr "Archives"
+msgstr "بایگانی"
 
 #: archive.php:63
 msgid "Chats"
-msgstr "Chats"
+msgstr "گفتگوها"
 
 #: archive.php:60
 msgid "Audios"
-msgstr "Audios"
+msgstr "صوت‌ها"
 
 #: archive.php:57
 msgid "Statuses"
-msgstr "États"
+msgstr "وضعیت‌ها"
 
 #: archive.php:54
 msgid "Links"
-msgstr "Liens"
+msgstr "پیوندها"
 
 #: archive.php:51
 msgid "Quotes"
-msgstr "Citations"
+msgstr "گفتاورد"
 
 #: archive.php:48
 msgid "Videos"
-msgstr "Vidéos"
+msgstr "ویدئوها"
 
 #: archive.php:45
 msgid "Images"
-msgstr "Images"
+msgstr "تصویرها"
 
 #: archive.php:42
 msgid "Galleries"
-msgstr "Galeries"
+msgstr "گالری‌ها"
 
 #: archive.php:39
 msgid "Asides"
-msgstr "Apart&eacute;s"
+msgstr "کلمات قصار"
 
 #: archive.php:36
 msgctxt "yearly archives date format"
@@ -268,7 +270,7 @@ msgstr "Y"
 
 #: archive.php:36
 msgid "Year: %s"
-msgstr "Ann&eacute;e: %s"
+msgstr "سال: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
@@ -277,24 +279,24 @@ msgstr "F Y"
 
 #: archive.php:33
 msgid "Month: %s"
-msgstr "Mois: %s"
+msgstr "ماه: %s"
 
 #: archive.php:30
 msgid "Day: %s"
-msgstr "Jour: %s"
+msgstr "روز: %s"
 
 #: archive.php:27
 msgid "Author: %s"
-msgstr "Auteur : %s"
+msgstr "نویسنده: %s"
 
 #: archive-jetpack-portfolio.php:19
 msgid "Portfolio"
-msgstr "Portfolio"
+msgstr "نمونه‌کار"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oups ! Cette page est introuvable."
+msgstr "اوه! امکان یافتن صفحه نیست."
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Apparemment, rien n&rsquo;a été trouvé à cette adresse. Essayez avec recherche&nbsp;?"
+msgstr "به نظر می‌رسد چیزی در این مکان پیدا نشده. ممکن است جستجو کمک کند؟"
