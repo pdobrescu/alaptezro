@@ -78,3 +78,15 @@ tags
 
 #MailPoet files needed for the plugin to work
 !/plugins/mailpoet/vendor-prefixed/psr/log/
+
+#Shortpixel folder needed for the plugin to work
+!/plugins/shortpixel-image-optimiser/build/shortpixel/log/
+!/plugins/enable-media-replace/build/shortpixel/log/
+
+#Mollie Payment for Woo - ignore it's gitignore file and allow vendor folder
+#(ignored by their own gitignore)
+/plugins/mollie-payments-for-woocommerce/includes/mollie-api-php/.gitignore
+!/plugins/mollie-payments-for-woocommerce/includes/mollie-api-php/vendor/
+
+#Paazl shipment plugin https://www.paazl.com/
+!/plugins/wordpress-paazl-plugin/log/
